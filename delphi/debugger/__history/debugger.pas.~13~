@@ -1,0 +1,43 @@
+unit debugger;
+
+interface
+
+uses
+  System.Classes, System.SysUtils;
+
+type
+  TDebugger = class(TComponent)
+  private
+    FInstanced: boolean;
+    { private declarations }
+  protected
+    { protected declarations }
+  public
+    { public declarations }
+    constructor Create;
+
+  published
+    { published declarations }
+  end;
+
+var
+  GDebug: TDebugger;
+
+implementation
+
+{ TDebugger }
+
+constructor TDebugger.Create;
+begin
+  FInstanced := true;
+end;
+
+initialization
+
+GDebug := TDebugger.Create;
+
+finalization
+
+FreeAndNil(GDebug);
+
+end.

@@ -1,0 +1,13 @@
+@echo off
+@cls
+SETLOCAL ENABLEEXTENSIONS
+SETLOCAL ENABLEDELAYEDEXPANSION
+@chcp 1252 >nul
+
+set SVN_SERVER_BRANCHES=http://192.168.1.2/svn/Delphi/branches
+set BRANCH=2019.09.09
+
+mkdir %BRANCH%
+::cd %BRANCH%
+
+svn checkout %SVN_SERVER_BRANCHES%/%BRANCH%

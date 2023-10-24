@@ -1,0 +1,1 @@
+explorer /e, /n,%AppData%\Microsoft\Windows\Start Menu\Programs\Startup

@@ -1,0 +1,1 @@
+    procedure FormDestroy(Sender: TObject);Send C:\_tmp\_bases\LAYOUT.FDB{return}MouseClick, right

@@ -1,0 +1,37 @@
+- Montar estrutura do arquivo Futura.ini para geração automática
+EXEMPLO:
+{
+[GERAL]
+EMPRESA_DEFAULT=1
+QTDE_BASE=1
+BASE_DEFAULT=1
+BASE_OPCIONAL=1
+
+[BASE_01]
+DADOS_ALIAS=DADOS
+DADOS_IP=programacao19.futura.sbo
+DADOS_PATH=Z:\BASES\7272 - PRECO 25\DESTINO\DADOS.FDB
+BACKUP_PATH=/home/bd/futura/Backup/
+FIREBIRD_OPCAO=masterkey
+}
+- Pastas que fazem parte do Modelo BASES
+
+- Pastas que fazem parte do Modelo _Fontes
+ * IMPORTACAO\_EXE
+ * IMPORTACAO\_EXE\Futura.ini
+ * IMPORTACAO\UTILITARIOS
+ * IMPORTACAO\UTILITARIOS\*
+ 
+
+- Estruturar padrão para pasta IMPORTACAO:
+ * Exemplo: 0000 - AA - AAAAA
+ * Modelo: ID - TIPO - DESC
+ ** ID: IDENTIFICACAO DO CLIENTE DA IMPORTACAO
+ ** TIPO: SISTEMA DE BANCO DE DADOS DA IMPORTACAO
+ ** DESC: NOME FANTASIA/RAZAO DO CLIENTE DA IMPORTACAO
+ 
+- Verificar Codificação de Caractere
+ * Pesquisar melhor formato de Codificação de Caractere para CMD Windows Prompt
+ * Rotina que reconheça o formato
+ * Converta os caracteres da lingua portuguesa para o padrão internacional
+ ** Ex.: [Ação => ACAO, importações => IMPORTACOES]

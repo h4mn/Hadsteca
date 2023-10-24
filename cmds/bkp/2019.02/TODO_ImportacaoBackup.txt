@@ -1,0 +1,9 @@
+1.Localiza Importacao Path;
+2.Verifica Arquivo Tamanho Maior (1 MB):
+	2.1.Verifica Path:
+		2.1.1.\DESTINO;
+		2.1.2.\ORIGEM;
+	2.2.Verifica Extensao;
+		2.2.1\*.FDB;
+		2.2.2\*.BCK;
+		2.2.3\*.ZIP;

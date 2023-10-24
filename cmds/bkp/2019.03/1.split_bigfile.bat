@@ -1,0 +1,29 @@
+@echo OFF
+@cls
+SETLOCAL ENABLEEXTENSIONS
+SETLOCAL ENABLEDELAYEDEXPANSION
+rem SCRIPT QUE SPLITA ARQUIVO GRANDE
+rem ================================
+
+set ARQUIVO_GRANDE=BKP_SAS.SQL
+set LINHAS_POR_ARQUIVO=8750
+REM pause
+REM goto:eof
+
+:SPLITADOR
+echo.
+echo DIVIDINDO ARQUIVO GRANDE EM PEQUENOS ...
+echo ========================================
+echo.
+set /a CONTADOR=0
+set /a CONTADOR_ARQUIVO=1
+
+for /f "tokens=*" %%L in (%ARQUIVO_GRANDE%) do (
+	echo %%L >> %ARQUIVO_GRANDE%_!CONTADOR_ARQUIVO!.SQL
+	set /a CONTADOR+=1
+	if !CONTADOR!==%LINHAS_POR_ARQUIVO% (
+		set /a CONTADOR=0
+		set /a CONTADOR_ARQUIVO+=1
+	)
+)
+:EXIT

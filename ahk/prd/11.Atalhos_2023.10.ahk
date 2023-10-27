@@ -18,19 +18,36 @@ return
 
 ;DELPHI TOOLS (CTRL + NUMPAD)
 ;==================================================
-;Debug
+;Enviar lista de Unidades Origem da Importação (Ctrl + NUMPAD 0)
 ^Numpad0::
-MsgBox, Debug de Hotkey
+;Send DUZIA{tab}{tab}DEZ{tab}{tab}PC{tab}{tab}JOGO{tab}{tab}UNID{tab}{tab}SET{tab}{tab}PC{tab}{tab}CENTO{tab}{tab}POTE{tab}{tab}CX{tab}{tab}PACOTE{tab}{tab}CJ{tab}{tab}PARES{tab}{tab}POTE{tab}{tab}
+;Send UNID{tab}{tab}PC{tab}{tab}CJ{tab}{tab}JOGO{tab}{tab}M{tab}{tab}PACOTE{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}KIT{tab}{tab}PC{tab}{tab}UNID{tab}{tab}SACO{tab}{tab}CX{tab}{tab}M{tab}{tab}ROLO{tab}{tab}PC{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}
+;Send UNID{tab}{tab}PC{tab}{tab}JOGO{tab}{tab}LITRO{tab}{tab}CJ{tab}{tab}BARRA{tab}{tab}M{tab}{tab}GALAO{tab}{tab}ML{tab}{tab}M3{tab}{tab}CX{tab}{tab}BALDE{tab}{tab}ROLO{tab}{tab}KG{tab}{tab}KIT{tab}{tab}TUBO{tab}{tab}FRASCO{tab}{tab}SACO{tab}{tab}PARES{tab}{tab}FOLHA{tab}{tab}POTE{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}M2{tab}{tab}UNID{tab}{tab}LATA{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}BISNAG{tab}{tab}
+;Send FRASCO{tab}{tab}PC{tab}{tab}TAMBOR{tab}{tab}LITRO{tab}{tab}CX{tab}{tab}UNID{tab}{tab}FOLHA{tab}{tab}BLOCO{tab}{tab}M{tab}{tab}ROLO{tab}{tab}M{tab}{tab}KG{tab}{tab}GALAO{tab}{tab}POTE{tab}{tab}JOGO{tab}{tab}VIDRO{tab}{tab}UNID{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}M{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}M2{tab}{tab}KIT{tab}{tab}PALETE{tab}{tab}CENTO{tab}{tab}
+;Send FRASCO{tab}{tab}PC{tab}{tab}TAMBOR{tab}{tab}LITRO{tab}{tab}CX{tab}{tab}UNID{tab}{tab}FOLHA{tab}{tab}BLOCO{tab}{tab}M{tab}{tab}ROLO{tab}{tab}M{tab}{tab}GALAO{tab}{tab}POTE{tab}{tab}JOGO{tab}{tab}VIDRO{tab}{tab}UNID{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}M{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}KIT{tab}{tab}PALETE{tab}{tab}CENTO{tab}{tab}
+;Send UNID{tab}{tab}UNID{tab}{tab}PC{tab}{tab}DUZIA{tab}{tab}CENTO{tab}{tab}PC{tab}{tab}UNID{tab}{tab}JOGO{tab}{tab}
+;Send UNID{tab}{tab}UNID{tab}{tab}POTE{tab}{tab}PC{tab}{tab}PC{tab}{tab}EMBAL{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}CJ{tab}{tab}PACOTE{tab}{tab}
+;Send saco{tab}{tab}unid{tab}{tab}FARDO{tab}{tab}
+;Send UNID{tab}{tab}PC{tab}{tab}PC{tab}{tab}PARES{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}POTE{tab}{tab}FRASCO{tab}{tab}PACOTE{tab}{tab}KIT{tab}{tab}PARES{tab}{tab}PC{tab}{tab}KIT{tab}{tab}CX{tab}{tab}FARDO{tab}{tab}UNID{tab}{tab}CJ{tab}{tab}FARDO{tab}{tab}CJ{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}BARRA{tab}{tab}UNID{tab}{tab}KG{tab}{tab}UNID{tab}{tab}FARDO{tab}{tab}BISNAG{tab}{tab}UNID{tab}{tab}PACOTE{tab}{tab}UNID{tab}{tab}
+;Send UNID{tab}{tab}UNID{tab}{tab}PC{tab}{tab}POTE{tab}{tab}PACOTE{tab}{tab}CJ{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}PC{tab}{tab}UNID{tab}{tab}
+;Send UNID{tab}{tab}PC{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}CJ{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}CX{tab}{tab}KIT{tab}{tab}UNID{tab}{tab}KIT{tab}{tab}PACOTE{tab}{tab}UNID{tab}{tab}PC{tab}{tab}PC{tab}{tab}FRASCO{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}PACOTE{tab}{tab}PACOTE{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}PARES{tab}{tab}FARDO{tab}{tab}FARDO{tab}{tab}
+;Send UNID{tab}{tab}CJ{tab}{tab}PC{tab}{tab}PC{tab}{tab}POTE{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}PARES{tab}{tab}KIT{tab}{tab}CX{tab}{tab}PACOTE{tab}{tab}PC{tab}{tab}UNID{tab}{tab}KIT{tab}{tab}FRASCO{tab}{tab}PARES{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}PACOTE{tab}{tab}FARDO{tab}{tab}BISNAG{tab}{tab}CJ{tab}{tab}BARRA{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}PC{tab}{tab}KG{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}
+Send UNID{tab}{tab}KG{tab}{tab}SACO{tab}{tab}PC{tab}{tab}M{tab}{tab}
 return
 
-;Copiar atalho (Ctrl + NUMPAD 2)
+;Copiar atalho (Ctrl + NUMPAD 1)
+^Numpad1::
+Send !t1
+return
+
+;Copiar atalho relativo (Ctrl + NUMPAD 2)
 ^Numpad2::
-Send !tc
+Send !t2
 return
 
 ;Enviar para Branch (Ctrl + NUMPAD 3)
 ^Numpad3::
-Send !tn
+Send !t3
 return
 
 ;Gerenciador do Delphi Layout Desktop
@@ -144,27 +161,6 @@ FileDelete, F:\BACKUP\Temp\_ahk\clip_top.clip
 FileDelete, F:\BACKUP\Temp\_ahk\clip_width.clip
 ;Clipboard := clipsaida
 Send, %clipsaida%
-return
-
-;IMPORTACAO (CTRL + NUMPAD)
-;==================================================
-
-;ENVIA LISTA DE UNIDADES ORIGEM			(CTRL + 1)
-^Numpad1::
-;Send DUZIA{tab}{tab}DEZ{tab}{tab}PC{tab}{tab}JOGO{tab}{tab}UNID{tab}{tab}SET{tab}{tab}PC{tab}{tab}CENTO{tab}{tab}POTE{tab}{tab}CX{tab}{tab}PACOTE{tab}{tab}CJ{tab}{tab}PARES{tab}{tab}POTE{tab}{tab}
-;Send UNID{tab}{tab}PC{tab}{tab}CJ{tab}{tab}JOGO{tab}{tab}M{tab}{tab}PACOTE{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}KIT{tab}{tab}PC{tab}{tab}UNID{tab}{tab}SACO{tab}{tab}CX{tab}{tab}M{tab}{tab}ROLO{tab}{tab}PC{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}
-;Send UNID{tab}{tab}PC{tab}{tab}JOGO{tab}{tab}LITRO{tab}{tab}CJ{tab}{tab}BARRA{tab}{tab}M{tab}{tab}GALAO{tab}{tab}ML{tab}{tab}M3{tab}{tab}CX{tab}{tab}BALDE{tab}{tab}ROLO{tab}{tab}KG{tab}{tab}KIT{tab}{tab}TUBO{tab}{tab}FRASCO{tab}{tab}SACO{tab}{tab}PARES{tab}{tab}FOLHA{tab}{tab}POTE{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}M2{tab}{tab}UNID{tab}{tab}LATA{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}BISNAG{tab}{tab}
-;Send FRASCO{tab}{tab}PC{tab}{tab}TAMBOR{tab}{tab}LITRO{tab}{tab}CX{tab}{tab}UNID{tab}{tab}FOLHA{tab}{tab}BLOCO{tab}{tab}M{tab}{tab}ROLO{tab}{tab}M{tab}{tab}KG{tab}{tab}GALAO{tab}{tab}POTE{tab}{tab}JOGO{tab}{tab}VIDRO{tab}{tab}UNID{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}M{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}M2{tab}{tab}KIT{tab}{tab}PALETE{tab}{tab}CENTO{tab}{tab}
-;Send FRASCO{tab}{tab}PC{tab}{tab}TAMBOR{tab}{tab}LITRO{tab}{tab}CX{tab}{tab}UNID{tab}{tab}FOLHA{tab}{tab}BLOCO{tab}{tab}M{tab}{tab}ROLO{tab}{tab}M{tab}{tab}GALAO{tab}{tab}POTE{tab}{tab}JOGO{tab}{tab}VIDRO{tab}{tab}UNID{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}M{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}KIT{tab}{tab}PALETE{tab}{tab}CENTO{tab}{tab}
-;Send UNID{tab}{tab}UNID{tab}{tab}PC{tab}{tab}DUZIA{tab}{tab}CENTO{tab}{tab}PC{tab}{tab}UNID{tab}{tab}JOGO{tab}{tab}
-;Send UNID{tab}{tab}UNID{tab}{tab}POTE{tab}{tab}PC{tab}{tab}PC{tab}{tab}EMBAL{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}CJ{tab}{tab}PACOTE{tab}{tab}
-;Send saco{tab}{tab}unid{tab}{tab}FARDO{tab}{tab}
-;Send UNID{tab}{tab}PC{tab}{tab}PC{tab}{tab}PARES{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}POTE{tab}{tab}FRASCO{tab}{tab}PACOTE{tab}{tab}KIT{tab}{tab}PARES{tab}{tab}PC{tab}{tab}KIT{tab}{tab}CX{tab}{tab}FARDO{tab}{tab}UNID{tab}{tab}CJ{tab}{tab}FARDO{tab}{tab}CJ{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}BARRA{tab}{tab}UNID{tab}{tab}KG{tab}{tab}UNID{tab}{tab}FARDO{tab}{tab}BISNAG{tab}{tab}UNID{tab}{tab}PACOTE{tab}{tab}UNID{tab}{tab}
-;Send UNID{tab}{tab}UNID{tab}{tab}PC{tab}{tab}POTE{tab}{tab}PACOTE{tab}{tab}CJ{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}PC{tab}{tab}UNID{tab}{tab}
-;Send UNID{tab}{tab}PC{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}CJ{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}CX{tab}{tab}KIT{tab}{tab}UNID{tab}{tab}KIT{tab}{tab}PACOTE{tab}{tab}UNID{tab}{tab}PC{tab}{tab}PC{tab}{tab}FRASCO{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}PACOTE{tab}{tab}PACOTE{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}PARES{tab}{tab}FARDO{tab}{tab}FARDO{tab}{tab}
-;Send UNID{tab}{tab}CJ{tab}{tab}PC{tab}{tab}PC{tab}{tab}POTE{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}PARES{tab}{tab}KIT{tab}{tab}CX{tab}{tab}PACOTE{tab}{tab}PC{tab}{tab}UNID{tab}{tab}KIT{tab}{tab}FRASCO{tab}{tab}PARES{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}PACOTE{tab}{tab}FARDO{tab}{tab}BISNAG{tab}{tab}CJ{tab}{tab}BARRA{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}PC{tab}{tab}KG{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}
-Send UNID{tab}{tab}KG{tab}{tab}SACO{tab}{tab}PC{tab}{tab}M{tab}{tab}
-
 return
 
 ;TEMP							(CTRL + ALT + 8)

@@ -2,10 +2,13 @@ import sys
 import re
 import datetime as dt
 import argparse
+from rich.console import Console
 
 class Log:
     @staticmethod
     def __new__(cls, mensagem):
+        console = Console()
+        console.print(f'[green][{dt.datetime.now()}][/green] {mensagem}')
         with open('delphi_dpr.log', 'a') as f:
             f.write(f'[{dt.datetime.now()}] {mensagem}\n')
 
@@ -55,30 +58,50 @@ class DelphiDPR:
         with open(self.dpr_path, 'w') as f:
             f.writelines(linhas)
         
-    def remover_unidades_duplicadas(caminho_arquivo):
+    def remove_duplicated(self, caminho_arquivo):
         with open(caminho_arquivo, 'r') as arquivo:
             linhas = arquivo.readlines()
+            linhas_corrigidas = linhas.copy()
 
-        unidades = set()
-        novas_linhas = []
+        contador = 0
+        removidos = 0
+        repetidas = []
 
-        for linha in linhas:
-            if linha.strip().startswith('uses'):
-                # Verifica se a linha contém a declaração de units
-                unidades = set(linha.strip().split(',')[1:-1])
+        for i in range(len(linhas)):
+            for j in range(len(linhas)):
+                # se não for ela mesma
+                if i == j:
+                    continue
 
-                # Adiciona a linha original sem unidades duplicadas
-                novas_linhas.append(linha)
-            elif not any(unit in linha for unit in unidades):
-                # Adiciona outras linhas que não têm declarações de units duplicadas
-                novas_linhas.append(linha)
+                # e for diferente de nada
+                if linhas[i] == '\n':
+                    continue
 
-        with open(caminho_arquivo, 'w') as arquivo:
-            arquivo.writelines(novas_linhas)
+                # e se ainda não foi removidada
+                if removidos > 0:
+                    continue
+
+                # e for exatamente igual a outra linha
+                if linhas[i] == linhas[j]:
+                    # Log(f'linhas[{i,j}]: {linhas[i]},{linhas[j]}')
+                    removidos += 1
+                    linhas_corrigidas.pop(j)
+                    contador += 1
+                    repetidas.append(linhas[i])
+                    break
+
+        # with open(caminho_arquivo, 'w') as arquivo:
+            # arquivo.writelines(linhas_corrigidas)
+
+        Log(f'=================================')
+        Log(f'linhas duplicadas removidas: {contador}')
+        Log(f'=================================')
+        Log(f'linhas duplicadas: {repetidas}')
+
 
 
 # Main existe porque o script é chamado diretamente do terminal
 # por outro script cmd (copiar_atalho_relativo_2023.10.bat)
 if __name__ == '__main__':
     delphi_dpr = DelphiDPR()
-    delphi_dpr.unit_add()
+    # delphi_dpr.unit_add()

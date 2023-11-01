@@ -1,0 +1,95 @@
+'  uT_Login,\n', "  uTCad_MetodoPermanenteSaldoICMS in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Cadastro\\RNGenerico\\uTCad_MetodoPermanenteSaldoICMS.pas',\n", "  
+uTCad_MetodoPermanenteSaldo in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Cadastro\\RNGenerico\\uTCad_MetodoPermanenteSaldo.pas',\n", "  
+uTCad_PlanoContaContabil in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Cadastro\\RNGenerico\\uTCad_PlanoContaContabil.pas',\n", "  
+uTCad_SpedApuracaoICMSDifal in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Cadastro\\RNGenerico\\uTCad_SpedApuracaoICMSDifal.pas',\n", "  
+uTCad_SpedRegistroC112 in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Cadastro\\RNGenerico\\uTCad_SpedRegistroC112.pas',\n", "  
+uTCad_SpedApuracaoICMSAjuste in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Cadastro\\RNGenerico\\uTCad_SpedApuracaoICMSAjuste.pas',\n", "  
+uTCad_SpedApuracaoICMSST in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Cadastro\\RNGenerico\\uTCad_SpedApuracaoICMSST.pas',\n", "  
+uTCns_PlanoContaContabil in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Consulta\\RNGenerico\\uTCns_PlanoContaContabil.pas',\n", "  
+uTCns_SpedApuracaoICMSDifal in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Consulta\\RNGenerico\\uTCns_SpedApuracaoICMSDifal.pas',\n", "  
+uTCns_SpedRegistroC112 in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Consulta\\RNGenerico\\uTCns_SpedRegistroC112.pas',\n", "  
+uTCns_SpedApuracaoICMSST in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Consulta\\RNGenerico\\uTCns_SpedApuracaoICMSST.pas',\n", "  
+uTCad_SpedApuracaoICMSST in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Cadastro\\RNGenerico\\uTCad_SpedApuracaoICMSST.pas',\n", "  
+uTCns_SpedApuracaoICMSST in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Consulta\\RNGenerico\\uTCns_SpedApuracaoICMSST.pas',\n", "  
+uTCad_SpedApuracaoICMSAjuste in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Cadastro\\RNGenerico\\uTCad_SpedApuracaoICMSAjuste.pas',\n", "  
+uTCns_SpedRegistroC112 in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Consulta\\RNGenerico\\uTCns_SpedRegistroC112.pas',\n", "  
+uTCad_SpedRegistroC112 in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Cadastro\\RNGenerico\\uTCad_SpedRegistroC112.pas',\n", "  
+uTCns_SpedApuracaoICMSDifal in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Consulta\\RNGenerico\\uTCns_SpedApuracaoICMSDifal.pas',\n", "  
+uTCad_SpedApuracaoICMSDifal in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Cadastro\\RNGenerico\\uTCad_SpedApuracaoICMSDifal.pas',\n", "  
+uTCad_PlanoContaContabil in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Cadastro\\RNGenerico\\uTCad_PlanoContaContabil.pas',\n", "  
+uTCns_PlanoContaContabil in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Consulta\\RNGenerico\\uTCns_PlanoContaContabil.pas',\n", "  
+uTCad_MetodoPermanenteSaldo in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Cadastro\\RNGenerico\\uTCad_MetodoPermanenteSaldo.pas',\n", "  
+uTCad_MetodoPermanenteSaldoICMS in 
+'..\\..\\..\\..\\RepTmp\\Fiscal\\Geral\\Cadastro\\RNGenerico\\uTCad_MetodoPermanenteSaldoICMS.pas',\n", '  
+uT_Login,\n']
+[2023-10-30 17:25:21.540642] arquivo_path: C:\_tmp\_fontes\_hads\hadsteca\experimentos\delphi\src\testes/teste.dpr
+
+
+uT_Login
+
+uTCad_MetodoPermanenteSaldoICMS '..\..\..\..\RepTmp\Fiscal\Geral\Cadastro\RNGenerico\uTCad_MetodoPermanenteSaldoICMS.pas'
+
+uTCad_MetodoPermanenteSaldo '..\..\..\..\RepTmp\Fiscal\Geral\Cadastro\RNGenerico\uTCad_MetodoPermanenteSaldo.pas'
+
+uTCad_PlanoContaContabil '..\..\..\..\RepTmp\Fiscal\Geral\Cadastro\RNGenerico\uTCad_PlanoContaContabil.pas'
+
+uTCad_SpedApuracaoICMSDifal '..\..\..\..\RepTmp\Fiscal\Geral\Cadastro\RNGenerico\uTCad_SpedApuracaoICMSDifal.pas'
+
+uTCad_SpedRegistroC112 '..\..\..\..\RepTmp\Fiscal\Geral\Cadastro\RNGenerico\uTCad_SpedRegistroC112.pas'
+
+uTCad_SpedApuracaoICMSAjuste '..\..\..\..\RepTmp\Fiscal\Geral\Cadastro\RNGenerico\uTCad_SpedApuracaoICMSAjuste.pas'
+
+uTCad_SpedApuracaoICMSST '..\..\..\..\RepTmp\Fiscal\Geral\Cadastro\RNGenerico\uTCad_SpedApuracaoICMSST.pas'
+
+uTCns_PlanoContaContabil '..\..\..\..\RepTmp\Fiscal\Geral\Consulta\RNGenerico\uTCns_PlanoContaContabil.pas'
+
+uTCns_SpedApuracaoICMSDifal '..\..\..\..\RepTmp\Fiscal\Geral\Consulta\RNGenerico\uTCns_SpedApuracaoICMSDifal.pas'
+
+uTCns_SpedRegistroC112 '..\..\..\..\RepTmp\Fiscal\Geral\Consulta\RNGenerico\uTCns_SpedRegistroC112.pas'
+
+uTCns_SpedApuracaoICMSST '..\..\..\..\RepTmp\Fiscal\Geral\Consulta\RNGenerico\uTCns_SpedApuracaoICMSST.pas'
+
+uTCad_SpedApuracaoICMSST '..\..\..\..\RepTmp\Fiscal\Geral\Cadastro\RNGenerico\uTCad_SpedApuracaoICMSST.pas'
+
+uTCns_SpedApuracaoICMSST '..\..\..\..\RepTmp\Fiscal\Geral\Consulta\RNGenerico\uTCns_SpedApuracaoICMSST.pas'
+
+uTCad_SpedApuracaoICMSAjuste '..\..\..\..\RepTmp\Fiscal\Geral\Cadastro\RNGenerico\uTCad_SpedApuracaoICMSAjuste.pas'
+
+uTCns_SpedRegistroC112 '..\..\..\..\RepTmp\Fiscal\Geral\Consulta\RNGenerico\uTCns_SpedRegistroC112.pas'
+
+uTCad_SpedRegistroC112 '..\..\..\..\RepTmp\Fiscal\Geral\Cadastro\RNGenerico\uTCad_SpedRegistroC112.pas'
+
+uTCns_SpedApuracaoICMSDifal '..\..\..\..\RepTmp\Fiscal\Geral\Consulta\RNGenerico\uTCns_SpedApuracaoICMSDifal.pas'
+
+uTCad_SpedApuracaoICMSDifal '..\..\..\..\RepTmp\Fiscal\Geral\Cadastro\RNGenerico\uTCad_SpedApuracaoICMSDifal.pas'
+
+uTCad_PlanoContaContabil '..\..\..\..\RepTmp\Fiscal\Geral\Cadastro\RNGenerico\uTCad_PlanoContaContabil.pas'
+
+uTCns_PlanoContaContabil '..\..\..\..\RepTmp\Fiscal\Geral\Consulta\RNGenerico\uTCns_PlanoContaContabil.pas'
+
+uTCad_MetodoPermanenteSaldo '..\..\..\..\RepTmp\Fiscal\Geral\Cadastro\RNGenerico\uTCad_MetodoPermanenteSaldo.pas'
+
+uTCad_MetodoPermanenteSaldoICMS '..\..\..\..\RepTmp\Fiscal\Geral\Cadastro\RNGenerico\uTCad_MetodoPermanenteSaldoICMS.pas'
+
+uT_Login, uTCad_MetodoPermanenteSaldoICMS, uTCad_MetodoPermanenteSaldo, uTCad_PlanoContaContabil, uTCad_SpedApuracaoICMSDifal, uTCad_SpedRegistroC112, uTCad_SpedApuracaoICMSAjuste, uTCad_SpedApuracaoICMSST, uTCns_PlanoContaContabil, uTCns_SpedApuracaoICMSDifal, uTCns_SpedRegistroC112, uTCns_SpedApuracaoICMSST, uTCad_SpedApuracaoICMSST, uTCns_SpedApuracaoICMSST, uTCad_SpedApuracaoICMSAjuste, uTCns_SpedRegistroC112, uTCad_SpedRegistroC112, uTCns_SpedApuracaoICMSDifal, uTCad_SpedApuracaoICMSDifal, uTCad_PlanoContaContabil, uTCns_PlanoContaContabil, uTCad_MetodoPermanenteSaldo, 

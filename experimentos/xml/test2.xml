@@ -1,0 +1,2437 @@
+<?xml version="1.0" ?>
+<cruisecontrol project="Android - Ecommerce - Desenvolvimento">
+	
+  
+	<request source="C3PO" buildCondition="ForceBuild">Build (ForceBuild) triggered from C3PO</request>
+	
+  
+	<parameters>
+		
+    
+		<parameter name="$CCNetArtifactDirectory" value="C:\Program Files (x86)\CruiseControl.NET\server\Android - Ecommerce - Desenvolvimento\Artifacts"/>
+		
+    
+		<parameter name="$CCNetBuildCondition" value="ForceBuild"/>
+		
+    
+		<parameter name="$CCNetBuildDate" value="2023-11-22"/>
+		
+    
+		<parameter name="$CCNetBuildId" value="28892d6dd7d7459186580132e2f797ad"/>
+		
+    
+		<parameter name="$CCNetBuildTime" value="08:45:37"/>
+		
+    
+		<parameter name="$CCNetFailureTasks" value="System.Collections.ArrayList"/>
+		
+    
+		<parameter name="$CCNetFailureUsers" value="System.Collections.ArrayList"/>
+		
+    
+		<parameter name="$CCNetIntegrationStatus" value="Unknown"/>
+		
+    
+		<parameter name="$CCNetLabel" value="265"/>
+		
+    
+		<parameter name="$CCNetLastIntegrationStatus" value="Failure"/>
+		
+    
+		<parameter name="$CCNetListenerFile" value="C:\Program Files (x86)\CruiseControl.NET\server\Android - Ecommerce - Desenvolvimento\Artifacts\Android - Ecommerce - Desenvolvimento_ListenFile.xml"/>
+		
+    
+		<parameter name="$CCNetModifyingUsers" value="System.Collections.ArrayList"/>
+		
+    
+		<parameter name="$CCNetNumericLabel" value="265"/>
+		
+    
+		<parameter name="$CCNetProject" value="Android - Ecommerce - Desenvolvimento"/>
+		
+    
+		<parameter name="$CCNetProjectUrl" value="http://fontes.futurasistemas.com.br/svn/AndroidStudio/Trunk/eCommerce"/>
+		
+    
+		<parameter name="$CCNetRequestSource" value="C3PO"/>
+		
+    
+		<parameter name="$CCNetUser" value=""/>
+		
+    
+		<parameter name="$CCNetWorkingDirectory" value="D:\Android\Fontes\Trunk\eCommerce"/>
+		
+  
+	</parameters>
+	
+  
+	<modifications/>
+	
+  
+	<integrationProperties>
+		
+    
+		<CCNetArtifactDirectory>C:\Program Files (x86)\CruiseControl.NET\server\Android - Ecommerce - Desenvolvimento\Artifacts</CCNetArtifactDirectory>
+		
+    
+		<CCNetBuildCondition>ForceBuild</CCNetBuildCondition>
+		
+    
+		<CCNetBuildDate>2023-11-22</CCNetBuildDate>
+		
+    
+		<CCNetBuildTime>08:45:37</CCNetBuildTime>
+		
+    
+		<CCNetFailureUsers>
+			
+      
+			<user>hadnun</user>
+			
+    
+		</CCNetFailureUsers>
+		
+    
+		<CCNetFailureTasks>
+			
+      
+			<task>ExecutableTask</task>
+			
+    
+		</CCNetFailureTasks>
+		
+    
+		<CCNetIntegrationStatus>Failure</CCNetIntegrationStatus>
+		
+    
+		<CCNetLabel>265</CCNetLabel>
+		
+    
+		<CCNetLastIntegrationStatus>Failure</CCNetLastIntegrationStatus>
+		
+    
+		<CCNetListenerFile>C:\Program Files (x86)\CruiseControl.NET\server\Android - Ecommerce - Desenvolvimento\Artifacts\Android - Ecommerce - Desenvolvimento_ListenFile.xml</CCNetListenerFile>
+		
+    
+		<CCNetModifyingUsers/>
+		
+    
+		<CCNetNumericLabel>265</CCNetNumericLabel>
+		
+    
+		<CCNetProject>Android - Ecommerce - Desenvolvimento</CCNetProject>
+		
+    
+		<CCNetProjectUrl>http://fontes.futurasistemas.com.br/svn/AndroidStudio/Trunk/eCommerce</CCNetProjectUrl>
+		
+    
+		<CCNetRequestSource>C3PO</CCNetRequestSource>
+		
+    
+		<CCNetWorkingDirectory>D:\Android\Fontes\Trunk\eCommerce</CCNetWorkingDirectory>
+		
+    
+		<CCNetBuildId>28892d6dd7d7459186580132e2f797ad</CCNetBuildId>
+		
+    
+		<LastIntegrationStatus>Failure</LastIntegrationStatus>
+		
+    
+		<LastSuccessfulIntegrationLabel>263</LastSuccessfulIntegrationLabel>
+		
+    
+		<LastModificationDate>21/11/2023 08:47:10</LastModificationDate>
+		
+  
+	</integrationProperties>
+	
+  
+	<build date="2023-11-22 08:45:37" buildtime="00:01:32" error="true" buildcondition="ForceBuild">
+		
+
+
+		<buildresults>
+			
+
+			<task>
+				<buildArgs/>
+				<buildTimeoutSeconds>14400</buildTimeoutSeconds>
+				<baseDirectory>D:\Integração Continua\UpadadorDeVersaoMobile\DesenvolvimentoEcommerce\</baseDirectory>
+				<dynamicValues/>
+				<environment/>
+				<executable>D:\Integração Continua\UpadadorDeVersaoMobile\DesenvolvimentoEcommerce\1 - Update.bat</executable>
+				<priority>Normal</priority>
+				<successExitCodes/>
+			</task>
+			
+  
+			<message>D:\Integração Continua\UpadadorDeVersaoMobile\DesenvolvimentoEcommerce&gt;svn update  &quot;D:\Android\Fontes\Trunk&quot;  </message>
+			
+  
+			<message>Updating 'D:\Android\Fontes\Trunk':</message>
+			
+  
+			<message>Skipped 'D:\Android\Fontes\Trunk\Flutter\futura_ponto_funcionario\android' -- Node remains in conflict</message>
+			
+  
+			<message>At revision 6970.</message>
+			
+  
+			<message>Summary of conflicts:</message>
+			
+  
+			<message>  Skipped paths: 1</message>
+			
+
+		</buildresults>
+		
+
+
+
+		<buildresults>
+			
+
+			<task>
+				<buildArgs/>
+				<buildTimeoutSeconds>14400</buildTimeoutSeconds>
+				<baseDirectory>D:\Integração Continua\UpadadorDeVersaoMobile\DesenvolvimentoEcommerce\</baseDirectory>
+				<dynamicValues/>
+				<environment/>
+				<executable>D:\Integração Continua\UpadadorDeVersaoMobile\DesenvolvimentoEcommerce\2 - Clean.bat</executable>
+				<priority>Normal</priority>
+				<successExitCodes/>
+			</task>
+			
+  
+			<message>D:\Integração Continua\UpadadorDeVersaoMobile\DesenvolvimentoEcommerce&gt;del /F /Q F:\Android\Trunk\eCommerce\apk </message>
+			
+  
+			<message>D:\Integração Continua\UpadadorDeVersaoMobile\DesenvolvimentoEcommerce&gt;D:</message>
+			
+  
+			<message>D:\Integração Continua\UpadadorDeVersaoMobile\DesenvolvimentoEcommerce&gt;cd &quot;D:\Android\Fontes\Trunk\eCommerce&quot; </message>
+			
+  
+			<message>D:\Android\Fontes\Trunk\eCommerce&gt;gradlew clean --stacktrace  </message>
+			
+  
+			<message>Starting a Gradle Daemon (subsequent builds will be faster)</message>
+			
+  
+			<message>&gt; Configure project :baseDadosUtil</message>
+			
+  
+			<message>WARNING:The option setting 'android.useNewApkCreator=false' is deprecated.</message>
+			
+  
+			<message>The current default is 'true'.</message>
+			
+  
+			<message>It will be removed in version 8.0 of the Android Gradle plugin.</message>
+			
+  
+			<message>&gt; Configure project :eCommerceDemonstracao</message>
+			
+  
+			<message>WARNING:API 'variant.getPackageApplication()' is obsolete and has been replaced with 'variant.getPackageApplicationProvider()'.</message>
+			
+  
+			<message>It will be removed in version 7.0 of the Android Gradle plugin.</message>
+			
+  
+			<message>For more information, see https://d.android.com/r/tools/task-configuration-avoidance.</message>
+			
+  
+			<message>To determine what is calling variant.getPackageApplication(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.</message>
+			
+  
+			<message>&gt; Task :clean</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:clean</message>
+			
+  
+			<message>&gt; Task :eCommerce:clean UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:clean</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:clean</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:clean</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:clean</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:clean</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:clean</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl3:clean</message>
+			
+  
+			<message>&gt; Task :futura-lib:clean</message>
+			
+  
+			<message>Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.</message>
+			
+  
+			<message>You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.</message>
+			
+  
+			<message>See https://docs.gradle.org/7.5.1/userguide/command_line_interface.html#sec:command_line_warnings</message>
+			
+  
+			<message>BUILD SUCCESSFUL in 22s</message>
+			
+  
+			<message>11 actionable tasks: 10 executed, 1 up-to-date</message>
+			
+
+		</buildresults>
+		
+
+
+
+		<buildresults>
+			
+
+			<task>
+				<buildArgs/>
+				<buildTimeoutSeconds>14400</buildTimeoutSeconds>
+				<baseDirectory>D:\Integração Continua\UpadadorDeVersaoMobile\DesenvolvimentoEcommerce\</baseDirectory>
+				<dynamicValues/>
+				<environment/>
+				<executable>D:\Integração Continua\UpadadorDeVersaoMobile\DesenvolvimentoEcommerce\3 - Compile.bat</executable>
+				<priority>Normal</priority>
+				<successExitCodes/>
+			</task>
+			
+  
+			<message>D:\Integração Continua\UpadadorDeVersaoMobile\DesenvolvimentoEcommerce&gt;D:</message>
+			
+  
+			<message>D:\Integração Continua\UpadadorDeVersaoMobile\DesenvolvimentoEcommerce&gt;cd &quot;D:\Android\Fontes\Trunk\eCommerce&quot; </message>
+			
+  
+			<message>D:\Android\Fontes\Trunk\eCommerce&gt;gradlew assembleRelease --stacktrace  </message>
+			
+  
+			<message>&gt; Configure project :baseDadosUtil</message>
+			
+  
+			<message>WARNING:The option setting 'android.useNewApkCreator=false' is deprecated.</message>
+			
+  
+			<message>The current default is 'true'.</message>
+			
+  
+			<message>It will be removed in version 8.0 of the Android Gradle plugin.</message>
+			
+  
+			<message>&gt; Configure project :eCommerceDemonstracao</message>
+			
+  
+			<message>WARNING:API 'variant.getPackageApplication()' is obsolete and has been replaced with 'variant.getPackageApplicationProvider()'.</message>
+			
+  
+			<message>It will be removed in version 7.0 of the Android Gradle plugin.</message>
+			
+  
+			<message>For more information, see https://d.android.com/r/tools/task-configuration-avoidance.</message>
+			
+  
+			<message>To determine what is calling variant.getPackageApplication(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.</message>
+			
+  
+			<message>WARNING:We recommend using a newer Android Gradle plugin to use compileSdk = 33</message>
+			
+  
+			<message>This Android Gradle plugin (7.0.3) was tested up to compileSdk = 31</message>
+			
+  
+			<message>This warning can be suppressed by adding</message>
+			
+  
+			<message>    android.suppressUnsupportedCompileSdk=33</message>
+			
+  
+			<message>to this project's gradle.properties</message>
+			
+  
+			<message>The build will continue, but you are strongly encouraged to update your project to</message>
+			
+  
+			<message>use a newer Android Gradle Plugin that has been tested with compileSdk = 33</message>
+			
+  
+			<message>WARNING:We recommend using a newer Android Gradle plugin to use compileSdk = 32</message>
+			
+  
+			<message>This Android Gradle plugin (7.0.3) was tested up to compileSdk = 31</message>
+			
+  
+			<message>This warning can be suppressed by adding</message>
+			
+  
+			<message>    android.suppressUnsupportedCompileSdk=32</message>
+			
+  
+			<message>to this project's gradle.properties</message>
+			
+  
+			<message>The build will continue, but you are strongly encouraged to update your project to</message>
+			
+  
+			<message>use a newer Android Gradle Plugin that has been tested with compileSdk = 32</message>
+			
+  
+			<message>WARNING:We recommend using a newer Android Gradle plugin to use compileSdk = 34</message>
+			
+  
+			<message>This Android Gradle plugin (7.0.3) was tested up to compileSdk = 31</message>
+			
+  
+			<message>This warning can be suppressed by adding</message>
+			
+  
+			<message>    android.suppressUnsupportedCompileSdk=34</message>
+			
+  
+			<message>to this project's gradle.properties</message>
+			
+  
+			<message>The build will continue, but you are strongly encouraged to update your project to</message>
+			
+  
+			<message>use a newer Android Gradle Plugin that has been tested with compileSdk = 34</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:preBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:preReleaseBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:compileReleaseAidl NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:mergeReleaseJniLibFolders</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:mergeReleaseNativeLibs NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:stripReleaseDebugSymbols NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:compileReleaseRenderscript NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:generateReleaseBuildConfig</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:copyReleaseJniLibsProjectAndLocalJars</message>
+			
+  
+			<message>&gt; Task :futura-lib:compileJava</message>
+			
+  
+			<message>&gt; Task :futura-lib:processResources NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :futura-lib:classes</message>
+			
+  
+			<message>&gt; Task :futura-lib:jar</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:generateReleaseResValues</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:generateReleaseResources</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:packageReleaseResources</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:javaPreCompileRelease</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:mergeReleaseShaders</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:compileReleaseShaders NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:generateReleaseAssets UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:packageReleaseAssets</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:packageReleaseRenderscript NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:prepareLintJarForPublish UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:prepareReleaseArtProfile UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:processReleaseJavaRes NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:writeReleaseAarMetadata</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:parseReleaseLocalResources</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:processReleaseManifest</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:mergeReleaseJavaResource</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:mergeReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerce:preBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerce:preReleaseBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerce:compileReleaseAidl NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerce:mergeReleaseJniLibFolders</message>
+			
+  
+			<message>&gt; Task :eCommerce:mergeReleaseNativeLibs NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerce:stripReleaseDebugSymbols NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerce:copyReleaseJniLibsProjectAndLocalJars</message>
+			
+  
+			<message>&gt; Task :eCommerce:compileReleaseRenderscript NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerce:generateReleaseBuildConfig</message>
+			
+  
+			<message>&gt; Task :eCommerce:generateReleaseResValues</message>
+			
+  
+			<message>&gt; Task :eCommerce:generateReleaseResources</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:generateReleaseRFile</message>
+			
+  
+			<message>&gt; Task :eCommerce:packageReleaseResources</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:extractReleaseAnnotations</message>
+			
+  
+			<message>warn: removing resource futura.android.br:string/CodProduto without required default value.</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:verifyReleaseResources</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:compileReleaseJavaWithJavac</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:mergeReleaseGeneratedProguardFiles UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:mergeReleaseConsumerProguardFiles UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:syncReleaseLibJars</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:bundleReleaseAar</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:compileReleaseSources</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:assembleRelease</message>
+			
+  
+			<message>&gt; Task :eCommerce:javaPreCompileRelease</message>
+			
+  
+			<message>&gt; Task :eCommerce:mergeReleaseShaders</message>
+			
+  
+			<message>&gt; Task :eCommerce:compileReleaseShaders NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerce:generateReleaseAssets UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerce:packageReleaseAssets</message>
+			
+  
+			<message>&gt; Task :eCommerce:packageReleaseRenderscript NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerce:prepareLintJarForPublish UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerce:prepareReleaseArtProfile UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerce:processReleaseJavaRes NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerce:processReleaseManifest</message>
+			
+  
+			<message>D:\Android\Fontes\Trunk\eCommerce\eCommerce\src\main\AndroidManifest.xml:16:5-71:19 Warning:</message>
+			
+  
+			<message>	application@android:label was tagged at AndroidManifest.xml:16 to replace other declarations but no other declaration present</message>
+			
+  
+			<message>&gt; Task :eCommerce:writeReleaseAarMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerce:mergeReleaseJavaResource</message>
+			
+  
+			<message>&gt; Task :eCommerce:parseReleaseLocalResources</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:bundleLibCompileToJarRelease</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:compileReleaseLibraryResources</message>
+			
+  
+			<message>&gt; Task :eCommerce:mergeReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:preBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:preReleaseBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:compileReleaseAidl NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:compileReleaseRenderscript NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:generateReleaseBuildConfig</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:javaPreCompileRelease</message>
+			
+  
+			<message>&gt; Task :eCommerce:generateReleaseRFile</message>
+			
+  
+			<message>&gt; Task :eCommerce:compileReleaseLibraryResources</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:checkReleaseAarMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerce:extractReleaseAnnotations</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura:array/suggestions without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura:string/CodProduto without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura:string/bt_clearAll without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura:string/bt_clearHistory without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura:string/bt_clearSuggestions without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura:string/hello_world without required default value.</message>
+			
+  
+			<message>&gt; Task :eCommerce:verifyReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerce:compileReleaseJavaWithJavac</message>
+			
+  
+			<message>&gt; Task :eCommerce:mergeReleaseGeneratedProguardFiles UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerce:mergeReleaseConsumerProguardFiles UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerce:syncReleaseLibJars</message>
+			
+  
+			<message>&gt; Task :eCommerce:bundleReleaseAar</message>
+			
+  
+			<message>&gt; Task :eCommerce:compileReleaseSources</message>
+			
+  
+			<message>&gt; Task :eCommerce:assembleRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:generateReleaseResValues</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:generateReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:processReleaseGoogleServices</message>
+			
+  
+			<message>&gt; Task :eCommerce:bundleLibCompileToJarRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:createReleaseCompatibleScreenManifests</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:extractDeepLinksRelease</message>
+			
+  
+			<message>&gt; Task :eCommerce:extractDeepLinksRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:extractDeepLinksRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:mergeReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:processReleaseMainManifest</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:processReleaseManifest</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:bundleLibResRelease NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerce:bundleLibResRelease NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerce:writeReleaseLintModelMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerce:bundleLibRuntimeToJarRelease</message>
+			
+  
+			<message>&gt; Task :eCommerce:bundleReleaseLocalLintAar</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:processReleaseManifestForPackage</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:bundleLibRuntimeToJarRelease</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:createFullJarRelease</message>
+			
+  
+			<message>&gt; Task :eCommerce:createFullJarRelease</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:writeReleaseLintModelMetadata</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:bundleReleaseLocalLintAar</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:extractProguardFiles</message>
+			
+  
+			<message>&gt; Task :baseDadosUtil:copyReleaseJniLibsProjectOnly</message>
+			
+  
+			<message>&gt; Task :eCommerce:copyReleaseJniLibsProjectOnly</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:mergeReleaseJniLibFolders</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:mergeReleaseNativeLibs NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:stripReleaseDebugSymbols NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:extractReleaseNativeSymbolTables NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:mergeReleaseNativeDebugMetadata NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:checkReleaseDuplicateClasses</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:mergeReleaseArtProfile UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:mergeReleaseShaders</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:compileReleaseShaders NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:generateReleaseAssets UP-TO-DATE</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.demonstracao:array/suggestions without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.demonstracao:string/CodProduto without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.demonstracao:string/bt_clearAll without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.demonstracao:string/bt_clearHistory without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.demonstracao:string/bt_clearSuggestions without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.demonstracao:string/hello_world without required default value.</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:mergeReleaseAssets</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:compressReleaseAssets</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:processReleaseJavaRes NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:processReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:compileReleaseJavaWithJavac</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:compileReleaseSources</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:bundleReleaseClasses</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:mergeReleaseJavaResource</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:desugarReleaseFileDependencies</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:dexBuilderRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:collectReleaseDependencies</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:sdkReleaseDependencyData</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:validateSigningRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:writeReleaseAppMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:writeReleaseSigningConfigVersions</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:preBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:preReleaseBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:compileReleaseAidl NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:compileReleaseRenderscript NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:generateReleaseBuildConfig</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:javaPreCompileRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:checkReleaseAarMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:generateReleaseResValues</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:generateReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:processReleaseGoogleServices</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:createReleaseCompatibleScreenManifests</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:extractDeepLinksRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:processReleaseMainManifest</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:processReleaseManifest</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:extractProguardFiles</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:mergeReleaseJniLibFolders</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:mergeReleaseNativeLibs NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:stripReleaseDebugSymbols NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:extractReleaseNativeSymbolTables NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:mergeReleaseNativeDebugMetadata NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:mergeReleaseArtProfile UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:mergeReleaseShaders</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:compileReleaseShaders NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:generateReleaseAssets UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:mergeReleaseAssets</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:compressReleaseAssets</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:processReleaseJavaRes NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:collectReleaseDependencies</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:sdkReleaseDependencyData</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:validateSigningRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:writeReleaseAppMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:writeReleaseSigningConfigVersions</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:preBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:preReleaseBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:compileReleaseAidl NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:compileReleaseRenderscript NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:generateReleaseBuildConfig</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:optimizeReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:generateReleaseResValues</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:generateReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:processReleaseGoogleServices</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:checkReleaseAarMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:javaPreCompileRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:checkReleaseDuplicateClasses</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:mergeReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:mergeReleaseJavaResource</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:createReleaseCompatibleScreenManifests</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:extractDeepLinksRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:processReleaseMainManifest</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:processReleaseManifest</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:extractProguardFiles</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:mergeReleaseJniLibFolders</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:mergeReleaseNativeLibs NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:stripReleaseDebugSymbols NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:extractReleaseNativeSymbolTables NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:mergeReleaseNativeDebugMetadata NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:mergeReleaseArtProfile UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:checkReleaseDuplicateClasses</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:mergeReleaseShaders</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:compileReleaseShaders NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:generateReleaseAssets UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:mergeReleaseAssets</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:compressReleaseAssets</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:processReleaseJavaRes NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:mergeReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:collectReleaseDependencies</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:sdkReleaseDependencyData</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:validateSigningRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:writeReleaseAppMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:writeReleaseSigningConfigVersions</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:preBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:preReleaseBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:compileReleaseAidl NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:compileReleaseRenderscript NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:generateReleaseBuildConfig</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:javaPreCompileRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:checkReleaseAarMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:generateReleaseResValues</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:generateReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:processReleaseGoogleServices</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:mergeDexRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:lintVitalAnalyzeRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:desugarReleaseFileDependencies</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:desugarReleaseFileDependencies</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:mergeReleaseJavaResource</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:processReleaseManifestForPackage</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:compileReleaseArtProfile</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:processReleaseManifestForPackage</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:lintVitalRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:mergeReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:createReleaseCompatibleScreenManifests</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:extractDeepLinksRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:processReleaseMainManifest</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:processReleaseManifest</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:extractProguardFiles</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:mergeReleaseJniLibFolders</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:mergeReleaseNativeLibs NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:stripReleaseDebugSymbols NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:extractReleaseNativeSymbolTables NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:mergeReleaseNativeDebugMetadata NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:processReleaseManifestForPackage</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:checkReleaseDuplicateClasses</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:mergeReleaseArtProfile UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:mergeReleaseShaders</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:compileReleaseShaders NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:generateReleaseAssets UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:mergeReleaseAssets</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:compressReleaseAssets</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:processReleaseJavaRes NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:collectReleaseDependencies</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:sdkReleaseDependencyData</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:validateSigningRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:writeReleaseAppMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:writeReleaseSigningConfigVersions</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:preBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:preReleaseBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:compileReleaseAidl NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:compileReleaseRenderscript NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:generateReleaseBuildConfig</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:javaPreCompileRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:checkReleaseAarMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:generateReleaseResValues</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:generateReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:processReleaseGoogleServices</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.demonstracao2:array/suggestions without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.demonstracao2:string/CodProduto without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.demonstracao2:string/bt_clearAll without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.demonstracao2:string/bt_clearHistory without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.demonstracao2:string/bt_clearSuggestions without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.demonstracao2:string/hello_world without required default value.</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:processReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:mergeReleaseJavaResource</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:desugarReleaseFileDependencies</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.fbgcomercial:array/suggestions without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.fbgcomercial:string/CodProduto without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.fbgcomercial:string/bt_clearAll without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.fbgcomercial:string/bt_clearHistory without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.fbgcomercial:string/bt_clearSuggestions without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.fbgcomercial:string/hello_world without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.fabianabrinquedos:array/suggestions without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.fabianabrinquedos:string/CodProduto without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.fabianabrinquedos:string/bt_clearAll without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.fabianabrinquedos:string/bt_clearHistory without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.fabianabrinquedos:string/bt_clearSuggestions without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.fabianabrinquedos:string/hello_world without required default value.</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:processReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:processReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:compileReleaseJavaWithJavac</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:compileReleaseSources</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:mergeExtDexRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:bundleReleaseClasses</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:dexBuilderRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:mergeReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:compileReleaseJavaWithJavac</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:compileReleaseSources</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:bundleReleaseClasses</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:dexBuilderRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:compileReleaseJavaWithJavac</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:compileReleaseSources</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:bundleReleaseClasses</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:packageRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao:assembleRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:lintVitalAnalyzeRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:dexBuilderRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:createReleaseCompatibleScreenManifests</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:lintVitalRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:extractDeepLinksRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:lintVitalAnalyzeRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:processReleaseMainManifest</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:processReleaseManifest</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:extractProguardFiles</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:mergeReleaseJniLibFolders</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:mergeReleaseNativeLibs NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:stripReleaseDebugSymbols NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:lintVitalRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:extractReleaseNativeSymbolTables NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:mergeReleaseNativeDebugMetadata NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:checkReleaseDuplicateClasses</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:optimizeReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:mergeReleaseArtProfile UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:mergeReleaseShaders</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:compileReleaseShaders NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:generateReleaseAssets UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:mergeReleaseAssets</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:compressReleaseAssets</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:processReleaseJavaRes NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:collectReleaseDependencies</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:sdkReleaseDependencyData</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:validateSigningRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:writeReleaseAppMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:writeReleaseSigningConfigVersions</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:preBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:preReleaseBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:compileReleaseAidl NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:compileReleaseRenderscript NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:generateReleaseBuildConfig</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:javaPreCompileRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:processReleaseManifestForPackage</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:lintVitalAnalyzeRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:desugarReleaseFileDependencies</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:checkReleaseAarMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:generateReleaseResValues</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:generateReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:processReleaseGoogleServices</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:lintVitalRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:mergeExtDexRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:mergeDexRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:mergeDexRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:mergeReleaseJavaResource</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.ecommercerepl1:array/suggestions without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.ecommercerepl1:string/CodProduto without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.ecommercerepl1:string/bt_clearAll without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.ecommercerepl1:string/bt_clearHistory without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.ecommercerepl1:string/bt_clearSuggestions without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.ecommercerepl1:string/hello_world without required default value.</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:processReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:compileReleaseArtProfile</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:compileReleaseArtProfile</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:compileReleaseJavaWithJavac</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:compileReleaseSources</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:bundleReleaseClasses</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:mergeReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:dexBuilderRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:createReleaseCompatibleScreenManifests</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:extractDeepLinksRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:processReleaseMainManifest</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:processReleaseManifest</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:extractProguardFiles</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:mergeReleaseJniLibFolders</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:mergeReleaseNativeLibs NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:stripReleaseDebugSymbols NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:extractReleaseNativeSymbolTables NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:mergeReleaseNativeDebugMetadata NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:checkReleaseDuplicateClasses</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:optimizeReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:processReleaseManifestForPackage</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:packageRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceDemonstracao2:assembleRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:mergeReleaseArtProfile UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:mergeReleaseShaders</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:compileReleaseShaders NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:generateReleaseAssets UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:mergeReleaseAssets</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:compressReleaseAssets</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:processReleaseJavaRes NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:collectReleaseDependencies</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:lintVitalAnalyzeRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:sdkReleaseDependencyData</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:validateSigningRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:writeReleaseAppMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:writeReleaseSigningConfigVersions</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl3:preBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl3:preReleaseBuild UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl3:compileReleaseAidl NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl3:compileReleaseRenderscript NO-SOURCE</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl3:generateReleaseBuildConfig</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl3:javaPreCompileRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:lintVitalRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl3:checkReleaseAarMetadata</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl3:generateReleaseResValues</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl3:generateReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl3:processReleaseGoogleServices</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:desugarReleaseFileDependencies</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.ecommercerepl2:array/suggestions without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.ecommercerepl2:string/CodProduto without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.ecommercerepl2:string/bt_clearAll without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.ecommercerepl2:string/bt_clearHistory without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.ecommercerepl2:string/bt_clearSuggestions without required default value.</message>
+			
+  
+			<message>warn: removing resource br.com.wmfutura.ecommercerepl2:string/hello_world without required default value.</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:mergeReleaseJavaResource</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl2:processReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:mergeDexRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:mergeDexRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:optimizeReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:compileReleaseArtProfile UP-TO-DATE</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:optimizeReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:compileReleaseArtProfile</message>
+			
+  
+			<message>&gt; Task :eCommerceFBGComercial:packageRelease FAILED</message>
+			
+  
+			<message>&gt; Task :eCommerceFabianaBrinquedos:packageRelease</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl3:mergeReleaseResources</message>
+			
+  
+			<message>&gt; Task :eCommerceRepl1:packageRelease</message>
+			
+  
+			<message>Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.</message>
+			
+  
+			<message>You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.</message>
+			
+  
+			<message>See https://docs.gradle.org/7.5.1/userguide/command_line_interface.html#sec:command_line_warnings</message>
+			
+  
+			<message>273 actionable tasks: 258 executed, 15 up-to-date</message>
+			
+
+		</buildresults>
+		
+
+
+
+
+		<buildresults>
+			
+
+			<task>
+				<buildArgs/>
+				<buildTimeoutSeconds>14400</buildTimeoutSeconds>
+				<baseDirectory>D:\Integração Continua\UpadadorDeVersaoMobile\DesenvolvimentoEcommerce\</baseDirectory>
+				<dynamicValues/>
+				<environment/>
+				<executable>D:\Integração Continua\UpadadorDeVersaoMobile\DesenvolvimentoEcommerce\3 - Compile.bat</executable>
+				<priority>Normal</priority>
+				<successExitCodes/>
+			</task>
+			
+  
+			<message level="Error">Warning: This version only understands SDK XML versions up to 2 but an SDK XML file of version 3 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.</message>
+			
+  
+			<message level="Error">Warning: elemento inesperado (uri:&quot;&quot;, local:&quot;extension-level&quot;). Os elementos esperados sÒo &quot;codename&quot;,&quot;layoutlib&quot;,&quot;api-level&quot;</message>
+			
+  
+			<message level="Error">Warning: elemento inesperado (uri:&quot;&quot;, local:&quot;base-extension&quot;). Os elementos esperados sÒo &quot;codename&quot;,&quot;layoutlib&quot;,&quot;api-level&quot;</message>
+			
+  
+			<message level="Error">Warning: elemento inesperado (uri:&quot;&quot;, local:&quot;extension-level&quot;). Os elementos esperados sÒo &quot;codename&quot;,&quot;layoutlib&quot;,&quot;api-level&quot;</message>
+			
+  
+			<message level="Error">Warning: elemento inesperado (uri:&quot;&quot;, local:&quot;base-extension&quot;). Os elementos esperados sÒo &quot;codename&quot;,&quot;layoutlib&quot;,&quot;api-level&quot;</message>
+			
+  
+			<message level="Error">Note: D:\Android\Fontes\Trunk\futura\futura-lib\src\main\java\br\com\futura\lib\FuturaLibUtils.java uses unchecked or unsafe operations.</message>
+			
+  
+			<message level="Error">Note: Recompile with -Xlint:unchecked for details.</message>
+			
+  
+			<message level="Error">Note: Some input files use or override a deprecated API.</message>
+			
+  
+			<message level="Error">Note: Recompile with -Xlint:deprecation for details.</message>
+			
+  
+			<message level="Error">Note: Some input files use unchecked or unsafe operations.</message>
+			
+  
+			<message level="Error">Note: Recompile with -Xlint:unchecked for details.</message>
+			
+  
+			<message level="Error">Note: Some input files use or override a deprecated API.</message>
+			
+  
+			<message level="Error">Note: Recompile with -Xlint:deprecation for details.</message>
+			
+  
+			<message level="Error">Note: D:\Android\Fontes\Trunk\eCommerce\eCommerce\src\main\java\br\com\wmfutura\activity\MainActivity.java uses unchecked or unsafe operations.</message>
+			
+  
+			<message level="Error">Note: Recompile with -Xlint:unchecked for details.</message>
+			
+  
+			<message level="Error">No issues found.</message>
+			
+  
+			<message level="Error">No issues found.</message>
+			
+  
+			<message level="Error">No issues found.</message>
+			
+  
+			<message level="Error">No issues found.</message>
+			
+  
+			<message level="Error">No issues found.</message>
+			
+  
+			<message level="Error">FAILURE: Build failed with an exception.</message>
+			
+  
+			<message level="Error">* What went wrong:</message>
+			
+  
+			<message level="Error">Execution failed for task ':eCommerceFBGComercial:packageRelease'.</message>
+			
+  
+			<message level="Error">&gt; A failure occurred while executing com.android.build.gradle.tasks.PackageAndroidArtifact$IncrementalSplitterRunnable</message>
+			
+  
+			<message level="Error">   &gt; com.android.ide.common.signing.KeytoolException: Failed to read key ecommerce_fbgcomercial from store &quot;D:\Android\Fontes\KeyStore\KeyStoreFutura(futura1313)&quot;: No key with alias 'ecommerce_fbgcomercial' found in keystore D:\Android\Fontes\KeyStore\KeyStoreFutura(futura1313)</message>
+			
+  
+			<message level="Error">* Try:</message>
+			
+  
+			<message level="Error">&gt; Run with --info or --debug option to get more log output.</message>
+			
+  
+			<message level="Error">&gt; Run with --scan to get full insights.</message>
+			
+  
+			<message level="Error">* Exception is:</message>
+			
+  
+			<message level="Error">org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':eCommerceFBGComercial:packageRelease'.</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:142)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:282)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:140)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:128)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:77)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)</message>
+			
+  
+			<message level="Error">	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:69)</message>
+			
+  
+			<message level="Error">	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:327)</message>
+			
+  
+			<message level="Error">	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:314)</message>
+			
+  
+			<message level="Error">	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:307)</message>
+			
+  
+			<message level="Error">	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:293)</message>
+			
+  
+			<message level="Error">	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:420)</message>
+			
+  
+			<message level="Error">	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:342)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)</message>
+			
+  
+			<message level="Error">Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.tasks.PackageAndroidArtifact$IncrementalSplitterRunnable</message>
+			
+  
+			<message level="Error">	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:339)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.Factories$1.create(Factories.java:31)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:321)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:304)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLock(DefaultWorkerLeaseService.java:309)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:126)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$0(DefaultAsyncWorkTracker.java:100)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.Factories$1.create(Factories.java:31)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:321)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsIsolatedTask(DefaultWorkerLeaseService.java:198)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsIsolatedTask(DefaultWorkerLeaseService.java:188)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:100)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:78)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:66)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:244)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:68)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:221)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:204)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:187)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:165)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:89)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:40)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:53)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:50)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:50)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:40)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:68)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:38)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:41)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:74)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:29)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.executeDelegateBroadcastingChanges(CaptureStateAfterExecutionStep.java:124)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.execute(CaptureStateAfterExecutionStep.java:80)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.execute(CaptureStateAfterExecutionStep.java:58)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:36)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:181)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:71)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.Either$Right.fold(Either.java:175)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:59)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:69)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:47)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:36)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:25)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:36)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:22)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:110)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:56)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:56)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:73)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:44)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:89)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:50)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:114)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:57)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:76)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:50)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.executeWithNoEmptySources(SkipEmptyWorkStep.java:254)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:91)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:56)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.RemoveUntrackedExecutionStateStep.execute(RemoveUntrackedExecutionStateStep.java:32)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.RemoveUntrackedExecutionStateStep.execute(RemoveUntrackedExecutionStateStep.java:21)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:43)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:31)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.AssignWorkspaceStep.lambda$execute$0(AssignWorkspaceStep.java:40)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:281)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.AssignWorkspaceStep.execute(AssignWorkspaceStep.java:40)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.AssignWorkspaceStep.execute(AssignWorkspaceStep.java:30)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:37)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:27)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:44)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:33)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:76)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:139)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:128)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:77)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)</message>
+			
+  
+			<message level="Error">	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)</message>
+			
+  
+			<message level="Error">	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:69)</message>
+			
+  
+			<message level="Error">	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:327)</message>
+			
+  
+			<message level="Error">	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:314)</message>
+			
+  
+			<message level="Error">	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:307)</message>
+			
+  
+			<message level="Error">	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:293)</message>
+			
+  
+			<message level="Error">	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:420)</message>
+			
+  
+			<message level="Error">	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:342)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)</message>
+			
+  
+			<message level="Error">Caused by: java.lang.RuntimeException: com.android.ide.common.signing.KeytoolException: Failed to read key ecommerce_fbgcomercial from store &quot;D:\Android\Fontes\KeyStore\KeyStoreFutura(futura1313)&quot;: No key with alias 'ecommerce_fbgcomercial' found in keystore D:\Android\Fontes\KeyStore\KeyStoreFutura(futura1313)</message>
+			
+  
+			<message level="Error">	at com.android.build.gradle.internal.packaging.IncrementalPackagerBuilder.withSigning(IncrementalPackagerBuilder.java:225)</message>
+			
+  
+			<message level="Error">	at com.android.build.gradle.tasks.PackageAndroidArtifact.doTask(PackageAndroidArtifact.java:823)</message>
+			
+  
+			<message level="Error">	at com.android.build.gradle.tasks.PackageAndroidArtifact.access$000(PackageAndroidArtifact.java:150)</message>
+			
+  
+			<message level="Error">	at com.android.build.gradle.tasks.PackageAndroidArtifact$IncrementalSplitterRunnable.doExecute(PackageAndroidArtifact.java:1014)</message>
+			
+  
+			<message level="Error">	at com.android.build.gradle.internal.workeractions.WorkActionAdapter.execute(WorkActionAdapter.kt:39)</message>
+			
+  
+			<message level="Error">	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)</message>
+			
+  
+			<message level="Error">	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)</message>
+			
+  
+			<message level="Error">	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)</message>
+			
+  
+			<message level="Error">	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)</message>
+			
+  
+			<message level="Error">	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)</message>
+			
+  
+			<message level="Error">	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)</message>
+			
+  
+			<message level="Error">	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)</message>
+			
+  
+			<message level="Error">	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)</message>
+			
+  
+			<message level="Error">	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$2(DefaultWorkerExecutor.java:205)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:187)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:120)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:162)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.Factories$1.create(Factories.java:31)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:249)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:109)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:114)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:157)</message>
+			
+  
+			<message level="Error">	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:126)</message>
+			
+  
+			<message level="Error">	... 2 more</message>
+			
+  
+			<message level="Error">Caused by: com.android.ide.common.signing.KeytoolException: Failed to read key ecommerce_fbgcomercial from store &quot;D:\Android\Fontes\KeyStore\KeyStoreFutura(futura1313)&quot;: No key with alias 'ecommerce_fbgcomercial' found in keystore D:\Android\Fontes\KeyStore\KeyStoreFutura(futura1313)</message>
+			
+  
+			<message level="Error">	at com.android.ide.common.signing.KeystoreHelper.getCertificateInfo(KeystoreHelper.java:208)</message>
+			
+  
+			<message level="Error">	at com.android.build.gradle.internal.packaging.IncrementalPackagerBuilder.withSigning(IncrementalPackagerBuilder.java:165)</message>
+			
+  
+			<message level="Error">	... 33 more</message>
+			
+  
+			<message level="Error">Caused by: com.android.ide.common.signing.KeytoolException: No key with alias 'ecommerce_fbgcomercial' found in keystore D:\Android\Fontes\KeyStore\KeyStoreFutura(futura1313)</message>
+			
+  
+			<message level="Error">	at com.android.ide.common.signing.KeystoreHelper.getCertificateInfo(KeystoreHelper.java:195)</message>
+			
+  
+			<message level="Error">	... 34 more</message>
+			
+  
+			<message level="Error">* Get more help at https://help.gradle.org</message>
+			
+  
+			<message level="Error">BUILD FAILED in 57s</message>
+			
+
+		</buildresults>
+		
+
+	</build>
+	
+
+</cruisecontrol>

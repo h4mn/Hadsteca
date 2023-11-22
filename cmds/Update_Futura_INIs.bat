@@ -6,12 +6,8 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 
 ::Ambiente
 set "PARAMETRO_1=VERSAO_1" &rem 2019.09.16 Implementado codigo reusavel
-rem set PATH_ROOT=Z:\BACKUP\_BASES\SISTEMAS
-rem set PATH_ROOT=Z:\BACKUP\BACKUP\_BASES\SISTEMAS
-rem set PATH_ROOT=E:\BACKUP\_BASES\SISTEMAS
-rem set PATH_ROOT=F:\BACKUP\_BASES\SISTEMAS
 ::==================================================
-set PATH_ROOT=Z:\Backup\_tmp\_cmd
+set PATH_ROOT=C:\_tmp\_fontes\_hads\hadsteca\cmds
 set PATH_FUTURAINI=FUTURA.INI
 set PATH_THIS_FILE=%~n0%~x0
 set PATH_THIS_PATH=%~d0%~p0

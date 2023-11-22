@@ -53,7 +53,8 @@ class Imagem:
 
 
 if __name__ == "__main__":
-    path = r"Z:\Backup\_tmp\_img\prints_sumerx_nexus10\home.png"
+    # path = r"Z:\Backup\_tmp\_img\prints_sumerx_nexus10\home.png"
+    path = r"Z:\Backup\_tmp\_img\nexus10.images.redimensionadas\home.png"
     file = os.path.split(path)[1]
     extensao = os.path.splitext(file)[1]
 

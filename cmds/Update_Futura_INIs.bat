@@ -44,9 +44,10 @@ if "%PATH_ROOT%\%PATH_THIS_FILE%"=="%PATH_THIS_FULLPATH%" (
 			call:COPIAR "%PATH_IMPORTACAO%"
 			call:COPIAR "%PATH_INSTALL_FUTURAINI%"
 			call:SetCopyTag "%PATH_FONTES%\trunk"
-			call:SetCopyTag "%PATH_FONTES%\2023.09.18"
-			call:SetCopyTag "%PATH_FONTES%\2023.08.21"
-			call:SetCopyTag "%PATH_FONTES%\2023.07.24"
+			call:SetCopyTag "%PATH_FONTES%\2023.11.06"
+			@REM call:SetCopyTag "%PATH_FONTES%\2023.09.18"
+			@REM call:SetCopyTag "%PATH_FONTES%\2023.08.21"
+			@REM call:SetCopyTag "%PATH_FONTES%\2023.07.24"
 		)
 	) else (
 		set "MSG_ERRO=%MSG_MAININI%"&goto:ERRO

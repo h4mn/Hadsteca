@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Template Path: "c:\program files (x86)\embarcadero\studio\18.0\ObjRepos\EN\code_templates\Delphi\enumn.xml" -->
+<!-- Template Path: "C:\Users\berlin\Documents\Embarcadero\Studio\code_templates\enumn.xml" -->
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="enumn" invoke="auto">
+		<description>
+            Classe com enumeradores aninhados
+		</description>
+		<author>
+            Hadston Nunes
+		</author>
+		<point name="ancestorname">
+			<text>
+				Conjunto
+			</text>
+			<hint>
+				Nome do Enumerador Ascendente
+			</hint>
+		</point>
+		<point name="enumname">
+			<text>
+				Opcao
+			</text>
+			<hint>
+				Nome do Enumerador Item
+			</hint>
+		</point>
+		<code language="Delphi" context="typedecl" delimiter="|"><![CDATA[
+type
+|*|T|ancestorname| = class
+|*||*|type
+|*||*||*|TEnum|enumname| = (
+|*||*||*||*|{0} em_|enumname|_1,
+|*||*||*||*|{1} em_|enumname|_2,
+|*||*||*||*|{2} em_|end|_3,
+|*||*||*|);
+|*||*||*|TRec|enumname| = record
+|*||*||*||*|em_Id: integer;
+|*||*||*||*|em_Caption: string;
+|*||*||*||*|em_Enabled: boolean;
+|*||*||*|end;
+|*||*|const cRec|enumname|: array [TEnum|enumname|] of TRec|enumname| = (
+|*||*||*|(em_Id: 0; em_Caption: '|enumname|_1'; em_Enabled: false;),
+|*||*||*|(em_Id: 1; em_Caption: '|enumname|_2'; em_Enabled: false;),
+|*||*||*|(em_Id: 2; em_Caption: '|enumname|_3'; em_Enabled: true;)
+|*||*|);
+|*|end;
+]]>
+		</code>
+	</template>
+</codetemplate>

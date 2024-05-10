@@ -24,6 +24,12 @@ Uso:
     num novo arquivo *.csv.
 
     python scrapping.py 1.html
+
+Todo:
+    Erro encontrado:
+    - Quando não tem ID, e o nome do app tem mais de uma palavra, está dividindo o nome do app em duas colunas. Exemplo: RM Calçados -> RM | Calçados
+    Melhoria:
+    - Formatar a data de atualização do app para o padrão brasileiro.
 """
 import sys
 import os

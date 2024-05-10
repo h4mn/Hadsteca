@@ -108,7 +108,8 @@ goto:eof
 
 	if exist "%PATH_EMPRESA%" (
 		::TODO: Implementar a pasta do tipo de versão (_EXE para 32bit / _EXE64 para 64bit)
-		@copy "%FILE_PROCESSING_ORIGEM%" "%FILE_PROCESSING_DESTINO%" /y >nul		
+		rem >nul
+		@copy "%FILE_PROCESSING_ORIGEM%" "%FILE_PROCESSING_DESTINO%" /y
 		if %errorLevel% neq 0 (
 			set "MSG_ERRO=Falha ao copiar o arquivo"
 			call:LOG_ERROR "%MSG_ERRO%"

@@ -50,6 +50,16 @@ return
 Send !t3
 return
 
+
+;	PREENCHE FORMULARIO 1 (Ctrl + NUMPAD 4) ****
+;=============================================
+^Numpad4::
+;Preenche Justificativa do Cancelamento (PDV > Trocas e Devoluções)
+Send TESTE DE CANCELAMENTO DEBUG %A_Now%.%A_MSec%{Tab} ;Pedido Nro/Nota Fiscal Nro
+Sleep, 500
+return
+
+
 ;Gerenciador do Delphi Layout Desktop
 ;=========================
 ;Muda para Layout abaixo (Ctrl + F6)
@@ -62,55 +72,117 @@ Send {F6}+{tab}+{tab}+{tab}{Up}{Enter}
 return
 
 
-;	PREENCHE FORMULARIO 1 (Ctrl + NUMPAD 4) ****
-;=============================================
-^Numpad4::
-;Preenche Justificativa do Cancelamento (PDV > Trocas e Devoluções)
-Send TESTE DE CANCELAMENTO DEBUG %A_Now%.%A_MSec%{Tab} ;Pedido Nro/Nota Fiscal Nro
-Sleep, 500
-return
-
-
 ;	PREENCHE FORMULARIO 2 (Ctrl + NUMPAD 5) ****
 ;=============================================
+; ^Numpad5::
+; ; Tarefa	: Funcionalidade de Copiar Terminal
+; ; Formulário: Copiar e Inativar Cliente
+; ; Caminho	: Cadastro > Cadastros > Cliente Mensalistas > Clientes - Manutenção e Revisão | Principal > Financeiro > [Inativar/Copiar/Repassar Cobrança]
+; ; Base		: C:\_tmp\_bases\FUTURA.FDB (P:\9 - Outros\Hadston\Futura\ATUALIZARFUTURA.FDB)
+; ; Criação	: 2024.03.11
+; ; ----------------------------------------
+; ; Preencher Campo 1: Justificativa p/ Inativação
+; Send TESTE FINANCEIRO COPIAR COM LIMITE TERMINAL 2{Tab}
+; Sleep, 300
+; ; ----------------------------------------
+; ; Preencher Campo 2: Novo Código
+; ;CADASTRO_ID: XXXX
+; ;Send 131313{Tab}{Tab}
+; ;CADASTRO_ID: 11147
+; Send 131314{Tab}{Tab}
+; Sleep, 300
+; ; ----------------------------------------
+; ; Preencher Campo 2: Novo CNPJ
+; ;Send 58171556000120{Tab}
+; Send 94681388000187{Tab}
+; Sleep, 300
+; ; ----------------------------------------
+; ; Preencher Campo 2: Novo IE
+; ;Send 169156135997{Tab}
+; Send 139077510768{Tab}
+; Sleep, 300
+; ; ----------------------------------------
+; ; Preencher Campo 2: Nova Razao
+; Send TESTE FINANCEIRO COPIAR COM LIMITE TERMINAL 2 - RAZAO{Tab}
+; Sleep, 300
+; ; ----------------------------------------
+; ; Preencher Campo 2: Nova Fantasia
+; Send TESTE FINANCEIRO COPIAR COM LIMITE TERMINAL 2 - FANTASIA{Tab}
+; Sleep, 300
+; ; ----------------------------------------
+; ; Tabular Botão: Executar
+; Send {Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Enter}
+; Sleep, 300
+; return
+
+
 ^Numpad5::
-; Tarefa	: Funcionalidade de Copiar Terminal
-; Formulário: Copiar e Inativar Cliente
-; Caminho	: Cadastro > Cadastros > Cliente Mensalistas > Clientes - Manutenção e Revisão | Principal > Financeiro > [Inativar/Copiar/Repassar Cobrança]
-; Base		: C:\_tmp\_bases\FUTURA.FDB (P:\9 - Outros\Hadston\Futura\ATUALIZARFUTURA.FDB)
-; Criação	: 2024.03.11
+; Tarefa		: Cadastrar Nova Contas a Receber
+; Formulário	: Contas a Receber
+; Caminho		: Contas a Receber > Digitação
+; Base			: C:\_tmp\_bases\CHEQUES.FDB
+; Multiempresa 	: True
+; Criação		: 2024.05.02
 ; ----------------------------------------
-; Preencher Campo 1: Justificativa p/ Inativação
-Send TESTE FINANCEIRO COPIAR COM LIMITE TERMINAL 2{Tab}
+; Setup
+FormatTime, DataAmerica, %A_Now%, yyyyMMddHHmmss
+FormatTime, DataEmissao, %A_Now%, ddMMyyyy
+Random, Valor, 50, 200
+Random, Dias, 0, 2
+FormatTime, DataVencimentoA, %A_Now%, ddMMyyyy
+DataVencimentoA =+ %Dias%
+FormatTime, DataVencimentoB, %A_Now%, ddMMyyyy
+
+; ----------------------------------------
+; Preencher Campo 0: Novo
+Send {F2}
+Sleep, 500
+; ----------------------------------------
+; Preencher Campo 1: Empresa
+Send {Tab}
 Sleep, 300
 ; ----------------------------------------
-; Preencher Campo 2: Novo Código
-;CADASTRO_ID: XXXX
-;Send 131313{Tab}{Tab}
-;CADASTRO_ID: 11147
-Send 131314{Tab}{Tab}
+; Preencher Campo 2: Cliente
+Send 3401{Tab} ;Cliente: 3401 - CLIENTE TESTE
 Sleep, 300
 ; ----------------------------------------
-; Preencher Campo 2: Novo CNPJ
-;Send 58171556000120{Tab}
-Send 94681388000187{Tab}
+; Preencher Campo 3: Documento
+Send %DataAmerica%{Tab} ;Documento: 202405021234
+Sleep, 500
+; ----------------------------------------
+; Preencher Campo 4: Data Emissao
+Send %DataEmissao%{Tab} ;Data Emissao: 02052024
 Sleep, 300
 ; ----------------------------------------
-; Preencher Campo 2: Novo IE
-;Send 169156135997{Tab}
-Send 139077510768{Tab}
+; Preencher Campo 5: Historico
+Send TESTE AUTOCAD %DataAmerica%{Tab} ;Historico: TESTE AUTOCAD 202405021234
 Sleep, 300
 ; ----------------------------------------
-; Preencher Campo 2: Nova Razao
-Send TESTE FINANCEIRO COPIAR COM LIMITE TERMINAL 2 - RAZAO{Tab}
+; Preencher Campo 6: Prazo
+Send 6{Tab} ;Prazo: 6
 Sleep, 300
 ; ----------------------------------------
-; Preencher Campo 2: Nova Fantasia
-Send TESTE FINANCEIRO COPIAR COM LIMITE TERMINAL 2 - FANTASIA{Tab}
+; Preencher Campo 7: Valor
+Send %Valor%{Tab} ;Valor: 100
 Sleep, 300
 ; ----------------------------------------
-; Tabular Botão: Executar
-Send {Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Enter}
+; Preencher Campo 8: Gerar Parcelas
+Send {Enter}
+Sleep, 300
+Send {Enter}
+Sleep, 300
+Send {Enter}
+Sleep, 300
+Send {Enter}
+Sleep, 300
+; ----------------------------------------
+; Preencher Campo 9: Data Vencimento
+Send {Tab}{Tab}
+Send %DataVencimentoB%{Tab} ;Data Vencimento: 04052024
+Sleep, 300
+; ----------------------------------------
+; Tabular Botão: Gravar
+Send {F10}
 Sleep, 300
 return
 
@@ -188,6 +260,25 @@ FileDelete, F:\BACKUP\Temp\_ahk\clip_width.clip
 Send, %clipsaida%
 return
 
+
+;FERRAMENTAS DE PRODUTIVIDADE
+;==================================================
+
+;Encapsular parametro em função (Ctrl + NUMPAD 7)
+^Numpad7::
+Run, C:\_tmp\_apps\Python\Python311\python.exe "C:\_tmp\_fontes\_hads\hadsteca\python\strings\encapsula_param.py"
+Sleep, 1000
+Send, ^v
+return
+
+;Encapsular parametro em função (Ctrl + NUMPAD 7)
+^Numpad8::
+Run, C:\_tmp\_apps\Python\Python311\python.exe "C:\_tmp\_fontes\_hads\hadsteca\python\strings\encapsula_param.py"
+Sleep, 1000
+Send, ^v
+return
+
+
 ;TEMP							(CTRL + ALT + 8)
 ^!Numpad8::
 Send P:\Anderson\XML COMPRA\debug_35201169194454000651550560001922591002194774-nfe.xml{return}2{return}
@@ -208,12 +299,17 @@ return
 
 ;TESTE 131313							(CTRL + ALT + 2)
 ^!Numpad2::
-Send TESTE{return}131313{return}
+Send LUIZMONARO{return}131313{return}
 return
 
 ;FUTURA1 131313 						(CTRL + ALT + 3)
 ^!Numpad3::
 Send futura1{return}131313{return}
+return
+
+;HADS 131313 							(CTRL + ALT + 4)
+^!Numpad4::
+Send hads{return}131313{return}
 return
 
 ;AWS 									(CTRL + ALT + 6)

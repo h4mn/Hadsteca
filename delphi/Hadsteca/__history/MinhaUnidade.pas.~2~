@@ -1,0 +1,33 @@
+unit MinhaUnidade;
+
+interface
+
+uses
+  System.Classes;
+
+type
+  TCor = class(TComponent)
+  private
+    { private declarations }
+  protected
+    { protected declarations }
+  public
+    { public declarations }
+    function InverterHexadecimalBitABit(ACorABRG: string): string;
+
+  published
+    { published declarations }
+  end;
+
+implementation
+
+
+{ TCor }
+
+function TCor.InverterHexadecimalBitABit(ACorABRG: string): string;
+begin
+
+  //
+end;
+
+end.

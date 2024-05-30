@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/11/16 19:56:40.000.377,B:\_repositorios\Hadsteca\delphi\Console.dproj=B:\_repositorios\Project1.dproj</Transaction>
+    <Transaction>2023/11/16 20:04:15.000.129,=B:\_repositorios\Hadsteca\delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/16 20:11:28.000.165,B:\_repositorios\Hadsteca\delphi\Unit1.pas=B:\_repositorios\Hadsteca\delphi\Hadsteca\Cor.pas</Transaction>
+    <Transaction>2023/11/16 20:11:59.000.754,B:\_repositorios\Hadsteca\delphi\Hadsteca\Cor.pas=B:\_repositorios\Hadsteca\delphi\Hadsteca\uCor.pas</Transaction>
+    <Transaction>2023/11/16 20:12:08.000.753,B:\_repositorios\Hadsteca\delphi\Hadsteca\uCor.pas=B:\_repositorios\Hadsteca\delphi\Hadsteca\Cor.pas</Transaction>
+    <Transaction>2023/11/16 20:12:35.000.135,B:\_repositorios\Hadsteca\delphi\Hadsteca\Cor.pas=B:\_repositorios\Hadsteca\delphi\Hadsteca\MinhaUnidade.pas</Transaction>
+    <Transaction>2023/11/16 20:15:01.593,B:\_repositorios\Hadsteca\delphi\Hadsteca\Cor.pas=B:\_repositorios\Hadsteca\delphi\Hadsteca\MinhaUnidade.pas</Transaction>
+    <Transaction>2023/11/16 20:15:20.559,B:\_repositorios\Hadsteca\delphi\Hadsteca\uCor.pas=B:\_repositorios\Hadsteca\delphi\Hadsteca\Cor.pas</Transaction>
+  </Transactions>
+</BorlandProject>

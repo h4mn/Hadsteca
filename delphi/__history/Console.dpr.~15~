@@ -1,0 +1,33 @@
+program Console;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils,
+  uCor in 'Hadsteca\uCor.pas';
+
+var
+  LCor: TCor;
+  LOriginal, LInvertida: cardinal;
+begin
+  try
+    { TODO -oUser -cConsole Main : Insert code here }
+
+    LCor := TCor.Create;
+    try
+      LInvertida := LCor.InverterHexadecimalBitABit($009595FF);
+      Write(Format('Invertida: $%.8x', [LInvertida]));
+
+    finally
+      LCor.Free;
+    end;
+
+    Writeln('Pressione Enter para continuar...');
+    Readln;
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+end.

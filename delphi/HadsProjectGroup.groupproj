@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{46F1881E-3E17-4C41-A7B0-1F802A864E2B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Hadsteca.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Console.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Hadsteca\Tela.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Hadsteca">
+        <MSBuild Projects="Hadsteca.dproj"/>
+    </Target>
+    <Target Name="Hadsteca:Clean">
+        <MSBuild Projects="Hadsteca.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Hadsteca:Make">
+        <MSBuild Projects="Hadsteca.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Console">
+        <MSBuild Projects="Console.dproj"/>
+    </Target>
+    <Target Name="Console:Clean">
+        <MSBuild Projects="Console.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Console:Make">
+        <MSBuild Projects="Console.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Tela">
+        <MSBuild Projects="Hadsteca\Tela.dproj"/>
+    </Target>
+    <Target Name="Tela:Clean">
+        <MSBuild Projects="Hadsteca\Tela.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Tela:Make">
+        <MSBuild Projects="Hadsteca\Tela.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Hadsteca;Console;Tela"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Hadsteca:Clean;Console:Clean;Tela:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Hadsteca:Make;Console:Make;Tela:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

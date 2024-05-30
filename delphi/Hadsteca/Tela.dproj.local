@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/11/16 21:02:47.209,=B:\_repositorios\Unit1.pas</Transaction>
+    <Transaction>2023/11/16 21:03:26.936,B:\_repositorios\Hadsteca\delphi\Hadsteca\UI\fTela.dfm=B:\_repositorios\Unit1.dfm</Transaction>
+    <Transaction>2023/11/16 21:03:26.936,B:\_repositorios\Hadsteca\delphi\Hadsteca\UI\fTela.pas=B:\_repositorios\Unit1.pas</Transaction>
+    <Transaction>2023/11/16 21:03:35.569,B:\_repositorios\Hadsteca\delphi\Hadsteca\Tela.dproj=B:\_repositorios\Project1.dproj</Transaction>
+    <Transaction>2023/11/16 21:20:03.758,B:\_repositorios\Hadsteca\delphi\Hadsteca\UI\ufTela.dfm=B:\_repositorios\Hadsteca\delphi\Hadsteca\UI\fTela.dfm</Transaction>
+    <Transaction>2023/11/16 21:20:03.758,B:\_repositorios\Hadsteca\delphi\Hadsteca\UI\ufTela.pas=B:\_repositorios\Hadsteca\delphi\Hadsteca\UI\fTela.pas</Transaction>
+  </Transactions>
+</BorlandProject>

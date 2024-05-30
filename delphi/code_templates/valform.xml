@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Template Path: "c:\program files (x86)\embarcadero\studio\18.0\ObjRepos\EN\code_templates\Delphi\valform.xml" -->
+<!-- Template Path: "C:\Users\berlin\Documents\Embarcadero\Studio\code_templates\valform.xml" -->
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="valform" invoke="auto">
+		<description>
+            Valida form que será excluído do lazy loading.
+		</description>
+		<author>
+            Hadston Nunes
+		</author>
+		<point name="varname">
+			<text>
+				FORM_VARNAME
+			</text>
+			<hint>
+				Nome da Variável do Formulário
+			</hint>
+		</point>
+		<code language="Delphi" context="typedecl" delimiter="|"><![CDATA[
+if (pos('|varname|', UpperCase(pFormName)) > 0) then
+begin
+|*|result := True;
+|*|exit;
+end;|end|
+]]>
+		</code>
+	</template>
+</codetemplate>

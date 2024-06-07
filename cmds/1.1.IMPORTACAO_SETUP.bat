@@ -8,16 +8,16 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 ::VARIAVEIS
 ::---------
 rem Ambiente
-set PATH_WORKSPACE=Z:\BASES
-set PATH_CTEMP=C:\TEMP
-set PATH_DEV=Z:\DEV
-set PATH_SCRIPTS=Z:\DEV\MODELO\SCRIPTS
-set PATH_FONTES=C:\_Fontes\Utilitarios\Importacao\_DelphiXe10
+set PATH_WORKSPACE=Z:\Backup\_tmp\_firebase\importacao
+set PATH_CTEMP=C:\_tmp\_importacao
+set PATH_DEV=Z:\Backup\_tmp\_firebase\importacao\dev
+set PATH_SCRIPTS=C:\_tmp\_fontes\_hads\hadsteca\cmds\bkp\2023.10
+set PATH_FONTES=C:\_tmp\_fontes\Importacao
 set PATH_FB3=%ProgramFiles%\Firebird\Firebird_3_0
-set PATH_NOVAS=I:\BasesNovas
-set PATH_LIMPA=R:\17 - BaseLimpa
+set PATH_NOVAS=Z:\Backup\_tmp\_firebase\importacao
+set PATH_LIMPA=Z:\Backup\_tmp\_firebase
 set FB3_USER=SYSDBA
-set FB3_SENHA=masterkey
+set FB3_SENHA=sbofutura
 set "VAR_TAB=    "
 set VAR_DB_EXTENSAO=FDB
 rem Arquivos
@@ -40,21 +40,21 @@ set FILE_BCK_TEMP=%PATH_CTEMP%\%FILE_CTEMP_BCK%
 set FILE_DADOSTEMP=%PATH_CTEMP%\%FILE_CTEMP_NOVA%
 set PATH_FILE_DADOSTEMP_ORIGEM=%PATH_CTEMP%\%FILE_CTEMP_ORIGEM%
 rem Mensagens
-set MSG_TITLE=Configurando Importa��o
-set MSG_AMBIENTE=Este script n�o pode ser executado fora do ambiente
-set MSG_INICIAL=Iniciando Setup da Importa��o
-set MSG_INPUT=Entre os dados desta Importa��o
+set MSG_TITLE=Configurando Importacao
+set MSG_AMBIENTE=Este script nao pode ser executado fora do ambiente
+set MSG_INICIAL=Iniciando Setup da Importacao
+set MSG_INPUT=Entre os dados desta Importacao
 set MSG_INPUT_ALIAS=ALIAS
 set MSG_INPUT_DATA=DATA
 set MSG_INPUT_PASTA=PASTA
-set MSG_ERRO_NOEXIST=Pasta\Arquivo n�o existe
+set MSG_ERRO_NOEXIST=Pasta\Arquivo nao existe
 set MSG_ERRO_NOINPUT=Entrada indevida
 set MSG_ERRO=Erro inesperado
-set MSG_ERRORDEFAULT=N�o foi poss�vel fazer o Setup
+set MSG_ERRORDEFAULT=Neho foi possehvel fazer o Setup
 set MSG_OK= Setup completado
 ::MAIN
 ::----------------------------------------------------------------------
-if %COMPUTERNAME% EQU DESKTOP-4A54RRC (
+if %COMPUTERNAME% EQU PROG8-VM (
 	@echo ==================================================
 	title %MSG_TITLE%
 	@echo %MSG_INPUT%
@@ -62,6 +62,7 @@ if %COMPUTERNAME% EQU DESKTOP-4A54RRC (
 	set /p _IMP_ALIAS="%MSG_INPUT_ALIAS%: "||set _IMP_ALIAS="NULO"
 	if "!_IMP_ALIAS!" NEQ "NULO" (
 		set PATH_ALIAS=%PATH_NOVAS%\!_IMP_ALIAS!
+		echo debug: !PATH_ALIAS!
 		if exist "!PATH_ALIAS!" (
 			title %MSG_TITLE%: !_IMP_ALIAS!
 			rem Bloco captura pasta data
@@ -136,7 +137,7 @@ if %COMPUTERNAME% EQU DESKTOP-4A54RRC (
 					)
 					@xcopy "%PATH_SCRIPTS%" "!PATH_IMP_SCRIPTS!" /s /y >nul
 					rem Base_Origem
-					rem A base de origem � aquela a ser importada
+					rem A base de origem eh aquela a ser importada
 					rem --------------------------------------------------
 					@echo %VAR_TAB%- Extraindo base origem
 					@echo @copy "!PATH_ORIGEM_DADOS_ZIP!" "!PATH_IMPORTACAO!\ORIGEM\%FILE_ZIP%" /y >nul
@@ -192,7 +193,7 @@ if %COMPUTERNAME% EQU DESKTOP-4A54RRC (
 						if exist "!PATH_DESTINO_LIMPA_BCK!" del "!PATH_DESTINO_LIMPA_BCK!" >nul
 					
 					) else (
-						set MSG_ERRO="!FILE_LIMPA!" n�o existe
+						set MSG_ERRO="!FILE_LIMPA!" nao existe
 						call:AvisaErroLimpa
 					)
 					@popd
@@ -211,8 +212,8 @@ if %COMPUTERNAME% EQU DESKTOP-4A54RRC (
 					@echo %VAR_TAB%- Gravando logs
 					rem Saida para grupo skype
 					@echo ----------------------------------
-					@echo /me iniciou a importa��o ID !_IMP_ALIAS:~,4!...
-					@echo /me iniciou a importa��o ID !_IMP_ALIAS:~,4! |clip
+					@echo /me iniciou a importaeheho ID !_IMP_ALIAS:~,4!...
+					@echo /me iniciou a importaeheho ID !_IMP_ALIAS:~,4! |clip
 					@pause>nul
 					call:ImportacaoLog
 				) else ( set MSG_ERRO=%MSG_ERRO_NOEXIST% )

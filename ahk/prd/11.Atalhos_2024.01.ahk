@@ -32,7 +32,9 @@ return
 ;Send UNID{tab}{tab}UNID{tab}{tab}PC{tab}{tab}POTE{tab}{tab}PACOTE{tab}{tab}CJ{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}PC{tab}{tab}UNID{tab}{tab}
 ;Send UNID{tab}{tab}PC{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}CJ{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}CX{tab}{tab}KIT{tab}{tab}UNID{tab}{tab}KIT{tab}{tab}PACOTE{tab}{tab}UNID{tab}{tab}PC{tab}{tab}PC{tab}{tab}FRASCO{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}PACOTE{tab}{tab}PACOTE{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}PARES{tab}{tab}FARDO{tab}{tab}FARDO{tab}{tab}
 ;Send UNID{tab}{tab}CJ{tab}{tab}PC{tab}{tab}PC{tab}{tab}POTE{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}PARES{tab}{tab}KIT{tab}{tab}CX{tab}{tab}PACOTE{tab}{tab}PC{tab}{tab}UNID{tab}{tab}KIT{tab}{tab}FRASCO{tab}{tab}PARES{tab}{tab}CJ{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}PACOTE{tab}{tab}FARDO{tab}{tab}BISNAG{tab}{tab}CJ{tab}{tab}BARRA{tab}{tab}PARES{tab}{tab}UNID{tab}{tab}PC{tab}{tab}KG{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}
-Send UNID{tab}{tab}KG{tab}{tab}SACO{tab}{tab}PC{tab}{tab}M{tab}{tab}
+;Send UNID{tab}{tab}KG{tab}{tab}SACO{tab}{tab}PC{tab}{tab}M{tab}{tab}
+;Send PC{tab}{tab}PACOTE{tab}{tab}UNID{tab}{tab}FRASCO{tab}{tab}CX{tab}{tab}GF{tab}{tab}GALAO{tab}{tab}BARRA{tab}{tab}PACOTE{tab}{tab}PC{tab}{tab}CJ{tab}{tab}ROLO{tab}{tab}LITRO{tab}{tab}BALDE{tab}{tab}CX{tab}{tab}CART{tab}{tab}UNID{tab}{tab}FARDO{tab}{tab}FARDO{tab}{tab}FRASCO{tab}{tab}
+Send PC{tab}{tab}PACOTE{tab}{tab}UNID{tab}{tab}FRASCO{tab}{tab}CX{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}GALAO{tab}{tab}BARRA{tab}{tab}PACOTE{tab}{tab}POTE{tab}{tab}CJ{tab}{tab}ROLO{tab}{tab}LITRO{tab}{tab}BALDE{tab}{tab}CX{tab}{tab}UNID{tab}{tab}UNID{tab}{tab}FARDO{tab}{tab}FARDO{tab}{tab}FRASCO{tab}{tab}
 return
 
 ;Copiar atalho (Ctrl + NUMPAD 1)
@@ -117,22 +119,22 @@ return
 
 
 ^Numpad5::
+; Atalho		: [Ctrl + NUMPAD 5]
+; ----------------------------------------
 ; Tarefa		: Cadastrar Nova Contas a Receber
 ; Formulário	: Contas a Receber
 ; Caminho		: Contas a Receber > Digitação
 ; Base			: C:\_tmp\_bases\CHEQUES.FDB
 ; Multiempresa 	: True
 ; Criação		: 2024.05.02
+; Hoje			: 2024.05.16
 ; ----------------------------------------
 ; Setup
 FormatTime, DataAmerica, %A_Now%, yyyyMMddHHmmss
-FormatTime, DataEmissao, %A_Now%, ddMMyyyy
+FormatTime, DataHoje, %A_Now%, ddMMyyyy
 Random, Valor, 50, 200
-Random, Dias, 0, 2
-FormatTime, DataVencimentoA, %A_Now%, ddMMyyyy
-DataVencimentoA =+ %Dias%
-FormatTime, DataVencimentoB, %A_Now%, ddMMyyyy
-
+Random, DiasPraFrente, 0, 2 ; Random de 0 a 2 dias pra frente
+DataPraFrente = %DataHoje% + %DiasPraFrente%
 ; ----------------------------------------
 ; Preencher Campo 0: Novo
 Send {F2}
@@ -151,7 +153,7 @@ Send %DataAmerica%{Tab} ;Documento: 202405021234
 Sleep, 500
 ; ----------------------------------------
 ; Preencher Campo 4: Data Emissao
-Send %DataEmissao%{Tab} ;Data Emissao: 02052024
+Send %DataHoje%{Tab} ;Data Emissao: 02052024
 Sleep, 300
 ; ----------------------------------------
 ; Preencher Campo 5: Historico
@@ -178,7 +180,7 @@ Sleep, 300
 ; ----------------------------------------
 ; Preencher Campo 9: Data Vencimento
 Send {Tab}{Tab}
-Send %DataVencimentoB%{Tab} ;Data Vencimento: 04052024
+Send %DataPraFrente%{Tab} ;Data Vencimento: Hoje + Random de 0 a 2 dias
 Sleep, 300
 ; ----------------------------------------
 ; Tabular Botão: Gravar

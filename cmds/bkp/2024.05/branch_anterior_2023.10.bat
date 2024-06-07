@@ -146,7 +146,7 @@ set MSG_ERRO_DFMFMX=DFM ou FMX nao encontrado
 	)
 
 	rem ==================================================
-	rem ENVIAR DFM/FMX
+	rem ENVIAR DFM
 	rem ----------------------------
 	
 	rem Verifica se a sentença tem Aspas

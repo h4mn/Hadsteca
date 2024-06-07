@@ -1,3 +1,17 @@
+:: Cabeçalho
+::==================================================
+:: Nome: Update_Futura_INIs.bat
+:: Autor: Hadston Nunes
+:: Data: 2019-09-16
+:: Versao: 1.0
+:: Descrição: Atualiza os arquivos Futura.ini de todas as empresas
+:: Alterações:
+:: 2019-09-16 - Implementado codigo reusavel
+:: TODO:
+:: - Implementar a pasta do tipo de versão (_EXE para 32bit / _EXE64 para 64bit)
+:: - Implementar a captura automatica da branch
+::==================================================
+:: Ambiente
 @echo off
 @cls
 SETLOCAL ENABLEEXTENSIONS
@@ -51,6 +65,8 @@ if "%PATH_ROOT%\%PATH_THIS_FILE%"=="%PATH_THIS_FULLPATH%" (
 			
 			@echo.
 			@echo %VAR_TAB%Atualizando branches
+			:: TODO: - Implementar a captura automatica da branch
+			call:CopyBranch "2024.05.20"
 			call:CopyBranch "2024.03.25"
 			call:CopyBranch "2024.01.29"
 		)
@@ -107,7 +123,7 @@ goto:eof
 	set "FILE_PROCESSING_DESTINO=%PATH_EMPRESA%\_EXE\%PATH_FUTURAINI%"
 
 	if exist "%PATH_EMPRESA%" (
-		::TODO: Implementar a pasta do tipo de versão (_EXE para 32bit / _EXE64 para 64bit)
+		::TODO: - Implementar a pasta do tipo de versão (_EXE para 32bit / _EXE64 para 64bit)
 		rem >nul
 		@copy "%FILE_PROCESSING_ORIGEM%" "%FILE_PROCESSING_DESTINO%" /y
 		if %errorLevel% neq 0 (
